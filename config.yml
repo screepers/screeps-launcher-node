@@ -1,0 +1,16 @@
+steamKey: E6B8BA48A1290CE6B96E5300D2623393
+processors: 1
+serverConfig:
+  map: random_1x1
+  startAfterImport: true
+  tickRate: 1000
+mods:
+  - screepsmod-mongo
+  - screepsmod-auth
+  - screepsmod-admin-utils
+modules:
+  backend: false
+  main: false
+  processor: false
+  runner: true
+  storage: false

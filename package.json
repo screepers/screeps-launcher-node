@@ -1,0 +1,48 @@
+{
+  "name": "screeps-launcher",
+  "version": "2.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "start": "node --no-node-snapshot ."
+  },
+  "bin": {
+    "screeps-launcher": "dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.1",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.9.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@ladjs/graceful": "^3.2.2",
+    "@screeps/backend": "^3.2.3",
+    "@screeps/common": "^2.15.4",
+    "@screeps/driver": "file:screeps-driver-5.2.5.tgz",
+    "@screeps/engine": "^4.2.17",
+    "@screeps/pathfinding": "^0.4.17",
+    "@screeps/storage": "^5.1.1",
+    "bree": "^9.1.3",
+    "cabin": "^13.2.5",
+    "js-yaml": "^4.1.0",
+    "screepsbot-zeswarm": "^1.0.3",
+    "screepsmod-admin-utils": "^1.31.1",
+    "screepsmod-auth": "^2.8.1",
+    "screepsmod-dynamicmarket": "^1.1.14",
+    "screepsmod-history": "^1.6.0",
+    "screepsmod-mail-aws-ses": "^1.1.0",
+    "screepsmod-map-tool": "^1.10.0",
+    "screepsmod-market": "^1.2.0",
+    "screepsmod-mongo": "^2.11.1",
+    "screepsmod-pure-automation": "^1.0.3"
+  }
+}
