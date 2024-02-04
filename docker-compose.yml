@@ -18,4 +18,5 @@ services:
     - ./test:/screeps
     ports:
     - 21025:21025
+    - 21026:21026
     

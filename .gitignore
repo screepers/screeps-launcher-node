@@ -4,3 +4,4 @@ test
 driver
 logs
 node_modules
+config.yml
