@@ -1046,7 +1046,7 @@ packages:
     resolution: {integrity: sha512-C3nQxfFZxFRVoJoGKKI8y3MOEo129NQ+FgQ08iye+Mk4zNZZGdjfs06bVTr+DBSlA66Q2VEcMki/cUCP4SercQ==}
     dependencies:
       function-bind: 1.1.2
-      get-intrinsic: 1.2.2
+      get-intrinsic: 1.2.3
       set-function-length: 1.2.0
     dev: false
 
@@ -1504,7 +1504,7 @@ packages:
     resolution: {integrity: sha512-E7uGkTzkk1d0ByLeSc6ZsFS79Axg+m1P/VsgYsxHgiuc3tFSj+MjMIwe90FC4lOAZzNBdY7kkO2P2wKdsQ1vgQ==}
     engines: {node: '>= 0.4'}
     dependencies:
-      get-intrinsic: 1.2.2
+      get-intrinsic: 1.2.3
       gopd: 1.0.1
       has-property-descriptors: 1.0.1
     dev: false
@@ -1710,6 +1710,11 @@ packages:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
     dependencies:
       is-arrayish: 0.2.1
+    dev: false
+
+  /es-errors@1.0.0:
+    resolution: {integrity: sha512-yHV74THqMJUyFKkHyN7hyENcEZM3Dj2a2IrdClY+IT4BFQHkIVwlh8s6uZfjsFydMdNHv0F5mWgAA3ajFbsvVQ==}
+    engines: {node: '>= 0.4'}
     dev: false
 
   /es5-ext@0.10.62:
@@ -2308,9 +2313,11 @@ packages:
     resolution: {integrity: sha512-3t6rVToeoZfYSGd8YoLFR2DJkiQrIiUrGcjvFX2mDw3bn6k2OtwHN0TNCLbBO+w8qTvimhDkv+LSscbJY1vE6w==}
     dev: false
 
-  /get-intrinsic@1.2.2:
-    resolution: {integrity: sha512-0gSo4ml/0j98Y3lngkFEot/zhiCeWsbYIlZ+uZOVgzLyLaUw7wxUL+nCTP0XJvJg1AXulJRI3UJi8GsbDuxdGA==}
+  /get-intrinsic@1.2.3:
+    resolution: {integrity: sha512-JIcZczvcMVE7AUOP+X72bh8HqHBRxFdz5PDHYtNG/lE3yk9b3KZBJlwFcTyPYjg3L4RLLmZJzvjxhaZVapxFrQ==}
+    engines: {node: '>= 0.4'}
     dependencies:
+      es-errors: 1.0.0
       function-bind: 1.1.2
       has-proto: 1.0.1
       has-symbols: 1.0.3
@@ -2390,7 +2397,7 @@ packages:
   /gopd@1.0.1:
     resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
     dependencies:
-      get-intrinsic: 1.2.2
+      get-intrinsic: 1.2.3
     dev: false
 
   /graceful-fs@4.2.11:
@@ -2437,7 +2444,7 @@ packages:
   /has-property-descriptors@1.0.1:
     resolution: {integrity: sha512-VsX8eaIewvas0xnvinAe9bw4WfIeODpGYikiWYLH+dma0Jw6KHYqWiWfhQlgOVK8D6PvjubK5Uc4P0iIhIcNVg==}
     dependencies:
-      get-intrinsic: 1.2.2
+      get-intrinsic: 1.2.3
     dev: false
 
   /has-proto@1.0.1:
@@ -2775,12 +2782,12 @@ packages:
       has-tostringtag: 1.0.2
     dev: false
 
-  /is-array-buffer@3.0.2:
-    resolution: {integrity: sha512-y+FyyR/w8vfIRq4eQcM1EYgSTnmHXPqaF+IgzgraytCFq5Xh8lllDVmAZolPJiZttZLeFSINPYMaEJ7/vWUa1w==}
+  /is-array-buffer@3.0.4:
+    resolution: {integrity: sha512-wcjaerHw0ydZwfhiKbXJWLDY8A7yV7KhjQOpb83hGgGfId/aQa4TOvwyzn2PuswW2gPCYEL/nEAiSVpdOj1lXw==}
+    engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.5
-      get-intrinsic: 1.2.2
-      is-typed-array: 1.1.13
+      get-intrinsic: 1.2.3
     dev: false
 
   /is-arrayish@0.2.1:
@@ -2807,6 +2814,7 @@ packages:
 
   /is-buffer@1.1.6:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
+    requiresBuild: true
     dev: false
 
   /is-buffer@2.0.5:
@@ -3603,8 +3611,8 @@ packages:
     hasBin: true
     dev: false
 
-  /moment-timezone@0.5.44:
-    resolution: {integrity: sha512-nv3YpzI/8lkQn0U6RkLd+f0W/zy/JnoR5/EyPz/dNkPTBjA2jNLCVxaiQ8QpeLymhSZvX0wCL5s27NQWdOPwAw==}
+  /moment-timezone@0.5.45:
+    resolution: {integrity: sha512-HIWmqA86KcmCAhnMAN0wuDOARV/525R2+lOLotuGFzn4HO+FH+/645z2wx0Dt3iDv6/p61SIvKnDstISainhLQ==}
     dependencies:
       moment: 2.30.1
     dev: false
@@ -3986,8 +3994,8 @@ packages:
     resolution: {integrity: sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==}
     dev: false
 
-  /oauth@0.9.15:
-    resolution: {integrity: sha512-a5ERWK1kh38ExDEfoO6qUHJb32rd7aYmPHuyCu3Fta/cnICvYmgd2uhuKXvPD+PXB+gCEYYEaQdIRAjCOwAKNA==}
+  /oauth@0.10.0:
+    resolution: {integrity: sha512-1orQ9MT1vHFGQxhuy7E/0gECD3fd2fCC+PIX+/jgmU/gI3EpRocXtmtvxCO5x3WZ443FLTLFWNDjl5MPJf9u+Q==}
     dev: false
 
   /object-assign@4.1.1:
@@ -4256,7 +4264,7 @@ packages:
       debug: 4.3.4
       fast-safe-stringify: 2.1.1
       http-headers: 3.0.2
-      is-array-buffer: 3.0.2
+      is-array-buffer: 3.0.4
       is-buffer: 2.0.5
       is-stream: 2.0.1
       is-uuid: 1.0.2
@@ -4286,14 +4294,14 @@ packages:
     resolution: {integrity: sha512-XARXJycE6fFh/dxF+Uut8OjlwbFEXgbPVj/+V+K7cvriRK7VcAOm+NgBmbiLM9Qv3SSxEAV+V6fIk89nYHXa8A==}
     engines: {node: '>= 0.4.0'}
     dependencies:
-      passport-oauth2: 1.7.0
+      passport-oauth2: 1.8.0
     dev: false
 
   /passport-gitlab2@5.0.0:
     resolution: {integrity: sha512-cXQMgM6JQx9wHVh7JLH30D8fplfwjsDwRz+zS0pqC8JS+4bNmc1J04NGp5g2M4yfwylH9kQRrMN98GxMw7q7cg==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      passport-oauth2: 1.7.0
+      passport-oauth2: 1.8.0
     dev: false
 
   /passport-http@0.3.0:
@@ -4310,12 +4318,12 @@ packages:
       passport-strategy: 1.0.0
     dev: false
 
-  /passport-oauth2@1.7.0:
-    resolution: {integrity: sha512-j2gf34szdTF2Onw3+76alNnaAExlUmHvkc7cL+cmaS5NzHzDP/BvFHJruueQ9XAeNOdpI+CH+PWid8RA7KCwAQ==}
+  /passport-oauth2@1.8.0:
+    resolution: {integrity: sha512-cjsQbOrXIDE4P8nNb3FQRCCmJJ/utnFKEz2NX209f7KOHPoX18gF7gBzBbLLsj2/je4KrgiwLLGjf0lm9rtTBA==}
     engines: {node: '>= 0.4.0'}
     dependencies:
       base64url: 3.0.1
-      oauth: 0.9.15
+      oauth: 0.10.0
       passport-strategy: 1.0.0
       uid2: 0.0.4
       utils-merge: 1.0.1
@@ -5065,7 +5073,7 @@ packages:
       lodash: 4.17.21
       mkdirp: 0.5.6
       node-worker-threads-pool: 1.5.1
-      sequelize: 6.35.2(sqlite3@5.1.7)
+      sequelize: 6.36.0(sqlite3@5.1.7)
       sqlite3: 5.1.7(bluebird@3.7.2)
     transitivePeerDependencies:
       - ibm_db
@@ -5170,8 +5178,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: false
 
-  /sequelize@6.35.2(sqlite3@5.1.7):
-    resolution: {integrity: sha512-EdzLaw2kK4/aOnWQ7ed/qh3B6/g+1DvmeXr66RwbcqSm/+QRS9X0LDI5INBibsy4eNJHWIRPo3+QK0zL+IPBHg==}
+  /sequelize@6.36.0(sqlite3@5.1.7):
+    resolution: {integrity: sha512-PqOa11EHwA/zLmGDU4aynbsavbHJUlgRvFuC/2cA4LhOuV6NHKcQ0IXB+hNdFrGT3rULmvc4kdIwnfCNsrECMQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       ibm_db: '*'
@@ -5210,7 +5218,7 @@ packages:
       inflection: 1.13.4
       lodash: 4.17.21
       moment: 2.30.1
-      moment-timezone: 0.5.44
+      moment-timezone: 0.5.45
       pg-connection-string: 2.6.2
       retry-as-promised: 7.0.4
       semver: 7.5.4
@@ -5246,7 +5254,7 @@ packages:
     dependencies:
       define-data-property: 1.1.1
       function-bind: 1.1.2
-      get-intrinsic: 1.2.2
+      get-intrinsic: 1.2.3
       gopd: 1.0.1
       has-property-descriptors: 1.0.1
     dev: false
@@ -5295,7 +5303,7 @@ packages:
     resolution: {integrity: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==}
     dependencies:
       call-bind: 1.0.5
-      get-intrinsic: 1.2.2
+      get-intrinsic: 1.2.3
       object-inspect: 1.13.1
     dev: false
 
