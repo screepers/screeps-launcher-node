@@ -6,8 +6,8 @@ env:
 
 on:
   push:
-    branches:
-      - main
+    branches-ignore:
+      - renovate/**
     tags:
       - 'v*'
   release:
