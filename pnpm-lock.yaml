@@ -10,7 +10,7 @@ dependencies:
     version: 3.2.2
   '@screeps/backend':
     specifier: ^3.2.3
-    version: 3.2.5
+    version: 3.2.6
   '@screeps/common':
     specifier: ^2.15.4
     version: 2.15.5
@@ -40,10 +40,10 @@ dependencies:
     version: 1.0.3
   screepsmod-admin-utils:
     specifier: ^1.31.1
-    version: 1.31.2(@screeps/backend@3.2.5)
+    version: 1.31.2(@screeps/backend@3.2.6)
   screepsmod-auth:
     specifier: ^2.8.1
-    version: 2.8.2(@screeps/backend@3.2.5)
+    version: 2.8.2(@screeps/backend@3.2.6)
   screepsmod-dynamicmarket:
     specifier: ^1.1.14
     version: 1.1.14
@@ -183,8 +183,8 @@ packages:
     dev: false
     optional: true
 
-  /@screeps/backend@3.2.5:
-    resolution: {integrity: sha512-MV86CK2oJKnhRfTqjVv41+dy4UvM9wBnJcCmJbumNCE6pPRzOmHWhCdWycV5y77uwSwvqDzfevUae3UMcml3Lg==}
+  /@screeps/backend@3.2.6:
+    resolution: {integrity: sha512-CMOi+TcF5LZXJjyeuERWqJ+4HJdpJCf+ZQe+uDGk4WgWFEhiL2ym22KrzevleuJdR7xSY+2olGvBGyk7APrrRA==}
     hasBin: true
     dependencies:
       body-parser: 1.20.2
@@ -617,8 +617,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /aws-sdk@2.1555.0:
-    resolution: {integrity: sha512-hjYs1MQkJxdHnoZm8hypqGy4PQKWVUs19McdXRXWNXr97V0il4xcUpIfvjHQ9x9EjP0p/jyIx9/BtyrR68jnUQ==}
+  /aws-sdk@2.1557.0:
+    resolution: {integrity: sha512-625JNSUXC/t+iz8GCfzR+gBfi1mB/7W3OnmDag5SG+za76u19wSIMzUQBKPh82YJny6jhU0XVV3KfN3trI8mUg==}
     engines: {node: '>= 10.0.0'}
     dependencies:
       buffer: 4.9.2
@@ -1042,10 +1042,11 @@ packages:
     dev: false
     optional: true
 
-  /call-bind@1.0.6:
-    resolution: {integrity: sha512-Mj50FLHtlsoVfRfnHaZvyrooHcrlceNZdL/QBvJJVd9Ta55qCQK0gs4ss2oZDeV9zFCs6ewzYgVE5yfVmfFpVg==}
+  /call-bind@1.0.7:
+    resolution: {integrity: sha512-GHTSNSYICQ7scH7sZ+M2rFopRoLh8t2bLSW6BbgrtLsahOIB5iyAVJf9GjWK3cYTDaMj4XdBpM1cA6pIS0Kv2w==}
     engines: {node: '>= 0.4'}
     dependencies:
+      es-define-property: 1.0.0
       es-errors: 1.3.0
       function-bind: 1.1.2
       get-intrinsic: 1.2.4
@@ -1502,22 +1503,21 @@ packages:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
     dev: false
 
-  /define-data-property@1.1.2:
-    resolution: {integrity: sha512-SRtsSqsDbgpJBbW3pABMCOt6rQyeM8s8RiyeSN8jYG8sYmt/kGJejbydttUsnDs1tadr19tvhT4ShwMyoqAm4g==}
+  /define-data-property@1.1.4:
+    resolution: {integrity: sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==}
     engines: {node: '>= 0.4'}
     dependencies:
+      es-define-property: 1.0.0
       es-errors: 1.3.0
-      get-intrinsic: 1.2.4
       gopd: 1.0.1
-      has-property-descriptors: 1.0.1
     dev: false
 
   /define-properties@1.2.1:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
     engines: {node: '>= 0.4'}
     dependencies:
-      define-data-property: 1.1.2
-      has-property-descriptors: 1.0.1
+      define-data-property: 1.1.4
+      has-property-descriptors: 1.0.2
       object-keys: 1.1.1
     dev: false
 
@@ -1713,6 +1713,13 @@ packages:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
     dependencies:
       is-arrayish: 0.2.1
+    dev: false
+
+  /es-define-property@1.0.0:
+    resolution: {integrity: sha512-jxayLKShrEqqzJ0eumQbVhTYQM27CfT1T35+gCgDFoL82JLsXqTJ76zv6A0YLOgEnLUMvLzsDsGIrl8NFpT2gQ==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      get-intrinsic: 1.2.4
     dev: false
 
   /es-errors@1.3.0:
@@ -2444,10 +2451,10 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /has-property-descriptors@1.0.1:
-    resolution: {integrity: sha512-VsX8eaIewvas0xnvinAe9bw4WfIeODpGYikiWYLH+dma0Jw6KHYqWiWfhQlgOVK8D6PvjubK5Uc4P0iIhIcNVg==}
+  /has-property-descriptors@1.0.2:
+    resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
     dependencies:
-      get-intrinsic: 1.2.4
+      es-define-property: 1.0.0
     dev: false
 
   /has-proto@1.0.1:
@@ -2753,15 +2760,19 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
+  /ip-address@9.0.5:
+    resolution: {integrity: sha512-zHtQzGojZXTwZTHQqra+ETKd4Sn3vgi7uBmlPoXVWZqYvuKmtI0l/VZTjqGmJY9x88GGOaZ9+G9ES8hC4T4X8g==}
+    engines: {node: '>= 12'}
+    requiresBuild: true
+    dependencies:
+      jsbn: 1.1.0
+      sprintf-js: 1.1.3
+    dev: false
+    optional: true
+
   /ip@1.1.8:
     resolution: {integrity: sha512-PuExPYUiu6qMBQb4l06ecm6T6ujzhmh+MeJcW9wa89PoAz5pvd4zPgN5WJV104mb6S2T1AwNIAaB70JNrLQWhg==}
     dev: false
-
-  /ip@2.0.0:
-    resolution: {integrity: sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ==}
-    requiresBuild: true
-    dev: false
-    optional: true
 
   /ipaddr.js@1.9.1:
     resolution: {integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==}
@@ -2781,7 +2792,7 @@ packages:
     resolution: {integrity: sha512-8Q7EARjzEnKpt/PCD7e1cgUS0a6X8u5tdSiMqXhojOdoV9TsMsiO+9VLC5vAmO8N7/GmXn7yjR8qnA6bVAEzfA==}
     engines: {node: '>= 0.4'}
     dependencies:
-      call-bind: 1.0.6
+      call-bind: 1.0.7
       has-tostringtag: 1.0.2
     dev: false
 
@@ -2789,7 +2800,7 @@ packages:
     resolution: {integrity: sha512-wcjaerHw0ydZwfhiKbXJWLDY8A7yV7KhjQOpb83hGgGfId/aQa4TOvwyzn2PuswW2gPCYEL/nEAiSVpdOj1lXw==}
     engines: {node: '>= 0.4'}
     dependencies:
-      call-bind: 1.0.6
+      call-bind: 1.0.7
       get-intrinsic: 1.2.4
     dev: false
 
@@ -3113,6 +3124,12 @@ packages:
   /jsbn@0.1.1:
     resolution: {integrity: sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==}
     dev: false
+
+  /jsbn@1.1.0:
+    resolution: {integrity: sha512-4bYVV3aAMtDTTu4+xsDYa6sy9GyJ69/amsu9sYF2zqjiEoZA5xJi3BrfX3uY+/IekIu7MwdObdbDWpoZdBv3/A==}
+    requiresBuild: true
+    dev: false
+    optional: true
 
   /json-loader@0.5.7:
     resolution: {integrity: sha512-QLPs8Dj7lnf3e3QYS1zkCo+4ZwqOiF9d/nZnYozTISxXWCfNs9yuky5rJw4/W34s7POaNlbZmQGaB5NiXCbP4w==}
@@ -4038,7 +4055,7 @@ packages:
     resolution: {integrity: sha512-byy+U7gp+FVwmyzKPYhW2h5l3crpmGsxl7X2s8y43IgxvG4g3QZ6CffDtsNQy1WsmZpQbO+ybo0AlW7TY6DcBQ==}
     engines: {node: '>= 0.4'}
     dependencies:
-      call-bind: 1.0.6
+      call-bind: 1.0.7
       define-properties: 1.2.1
       has-symbols: 1.0.3
       object-keys: 1.1.1
@@ -5025,12 +5042,12 @@ packages:
       - supports-color
     dev: false
 
-  /screepsmod-admin-utils@1.31.2(@screeps/backend@3.2.5):
+  /screepsmod-admin-utils@1.31.2(@screeps/backend@3.2.6):
     resolution: {integrity: sha512-GdYLBViPsSKlP85nyHFJXCDAY4aR5e4Vo2sA88R9/L1bgs4RmTr9DSU72yf60+TRo5mUK5Ftf7RpCykPGu0apg==}
     peerDependencies:
       '@screeps/backend': '>=3.2.3'
     dependencies:
-      '@screeps/backend': 3.2.5
+      '@screeps/backend': 3.2.6
       axios: 0.19.2
       body-parser: 1.20.2
       lodash: 4.17.21
@@ -5041,12 +5058,12 @@ packages:
       - supports-color
     dev: false
 
-  /screepsmod-auth@2.8.2(@screeps/backend@3.2.5):
+  /screepsmod-auth@2.8.2(@screeps/backend@3.2.6):
     resolution: {integrity: sha512-pzU6JPutr0RNJjQtWigeZW1b9hL3tnNBqcX6v7P+3RBXLwqvNot6FdKwPb+I2f3e6DyxnLCuYQ7T+2nksui/qw==}
     peerDependencies:
       '@screeps/backend': '>=3.2.0'
     dependencies:
-      '@screeps/backend': 3.2.5
+      '@screeps/backend': 3.2.6
       basic-auth: 1.1.0
       body-parser: 1.20.2
       cookie-parser: 1.4.6
@@ -5069,7 +5086,7 @@ packages:
   /screepsmod-history@1.6.0:
     resolution: {integrity: sha512-fO9KEgj1133kwsHT05Mj6cTsZ0OnDrmne/MRy1Yca7hxNqOYJOR2zJP8Nsu2tuRGwCmBJYJzttKWuy3Axqpwjg==}
     dependencies:
-      aws-sdk: 2.1555.0
+      aws-sdk: 2.1557.0
       bluebird: 3.7.2
       ini: 1.3.8
       lodash: 4.17.21
@@ -5092,7 +5109,7 @@ packages:
   /screepsmod-mail-aws-ses@1.1.0:
     resolution: {integrity: sha512-xwwDGfFz5YixhRjWPqs1A6stMojxlIQvm6BsLXGBBzlXGqdUZOIsIcrpTEFHVVxNsVxxbw7NpYVHZAvxJhsZzg==}
     dependencies:
-      aws-sdk: 2.1555.0
+      aws-sdk: 2.1557.0
       handlebars: 4.7.8
       nodemailer: 6.9.9
     dev: false
@@ -5254,12 +5271,12 @@ packages:
     resolution: {integrity: sha512-j4t6ccc+VsKwYHso+kElc5neZpjtq9EnRICFZtWyBsLojhmeF/ZBd/elqm22WJh/BziDe/SBiOeAt0m2mfLD0g==}
     engines: {node: '>= 0.4'}
     dependencies:
-      define-data-property: 1.1.2
+      define-data-property: 1.1.4
       es-errors: 1.3.0
       function-bind: 1.1.2
       get-intrinsic: 1.2.4
       gopd: 1.0.1
-      has-property-descriptors: 1.0.1
+      has-property-descriptors: 1.0.2
     dev: false
 
   /set-value@2.0.1:
@@ -5306,7 +5323,7 @@ packages:
     resolution: {integrity: sha512-QcgiIWV4WV7qWExbN5llt6frQB/lBven9pqliLXfGPB+K9ZYXxDozp0wLkHS24kWCm+6YXH/f0HhnObZnZOBnQ==}
     engines: {node: '>= 0.4'}
     dependencies:
-      call-bind: 1.0.6
+      call-bind: 1.0.7
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
       object-inspect: 1.13.1
@@ -5401,18 +5418,18 @@ packages:
     dependencies:
       agent-base: 6.0.2
       debug: 4.3.4
-      socks: 2.7.1
+      socks: 2.7.3
     transitivePeerDependencies:
       - supports-color
     dev: false
     optional: true
 
-  /socks@2.7.1:
-    resolution: {integrity: sha512-7maUZy1N7uo6+WVEX6psASxtNlKaNVMlGQKkG/63nEDdLOWNbiUMoLK7X4uYoLhQstau72mLgfEWcXcwsaHbYQ==}
-    engines: {node: '>= 10.13.0', npm: '>= 3.0.0'}
+  /socks@2.7.3:
+    resolution: {integrity: sha512-vfuYK48HXCTFD03G/1/zkIls3Ebr2YNa4qU9gHDZdblHLiqhJrJGkY3+0Nx0JpN9qBhJbVObc1CNciT1bIZJxw==}
+    engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
     requiresBuild: true
     dependencies:
-      ip: 2.0.0
+      ip-address: 9.0.5
       smart-buffer: 4.2.0
     dev: false
     optional: true
@@ -5494,12 +5511,15 @@ packages:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: false
 
+  /sprintf-js@1.1.3:
+    resolution: {integrity: sha512-Oo+0REFV59/rz3gfJNKQiBlwfHaSESl1pcGyABQsnnIfWOFt6JNj5gCog2U6MLZ//IGYD+nA8nI+mTShREReaA==}
+    requiresBuild: true
+    dev: false
+    optional: true
+
   /sqlite3@5.1.7(bluebird@3.7.2):
     resolution: {integrity: sha512-GGIyOiFaG+TUra3JIfkI/zGP8yZYLPQ0pl1bH+ODjiX57sPhrLU5sQJn1y9bDKZUFYkX1crlrPfSYt0BKKdkog==}
     requiresBuild: true
-    peerDependenciesMeta:
-      node-gyp:
-        optional: true
     dependencies:
       bindings: 1.5.0
       node-addon-api: 7.1.0
@@ -6246,7 +6266,7 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       available-typed-arrays: 1.0.6
-      call-bind: 1.0.6
+      call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
       has-tostringtag: 1.0.2
