@@ -3,12 +3,23 @@ tag-template: "v$RESOLVED_VERSION"
 change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
 change-title-escapes: '\<*_&'
 categories:
-  - title: "Community Contributions"
-    labels: ["community"]
+  - title: '🚀 Features'
+    labels:
+      - feat
+      - feature
+      - enhancement
+  - title: '🐛 Bug Fixes'
+    labels:
+      - fix
+      - bugfix
+      - bug
+  - title: '🧰 Maintenance'
+    labels: 
+      - chore
+      - docs
   - title: "Github"
-    labels: ["area/github"]
-  - title: "Maintenance"
-    labels: ["docs"]
+    labels: 
+    - "area/github"
 version-resolver:
   major:
     labels: ["type/break"]
