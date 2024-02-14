@@ -5,21 +5,35 @@ change-title-escapes: '\<*_&'
 categories:
   - title: '🚀 Features'
     labels:
-      - feat
       - feature
       - enhancement
   - title: '🐛 Bug Fixes'
     labels:
-      - fix
-      - bugfix
       - bug
   - title: '🧰 Maintenance'
     labels: 
       - chore
-      - docs
   - title: "Github"
     labels: 
     - "area/github"
+autolabeler:
+  - label: 'chore'
+    files:
+      - '*.md'
+    branch:
+      - '/docs{0,1}\/.+/'
+    title:
+      - '/chore/'
+  - label: 'bug'
+    branch:
+      - '/fix\/.+/'
+    title:
+      - '/fix/i'
+  - label: 'enhancement'
+    branch:
+      - '/feature\/.+/'
+    title:
+      - '/feat/'
 version-resolver:
   major:
     labels: ["type/break"]
