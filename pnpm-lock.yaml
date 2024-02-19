@@ -2828,7 +2828,6 @@ packages:
 
   /is-buffer@1.1.6:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
-    requiresBuild: true
     dev: false
 
   /is-buffer@2.0.5:
@@ -5093,7 +5092,7 @@ packages:
       lodash: 4.17.21
       mkdirp: 0.5.6
       node-worker-threads-pool: 1.5.1
-      sequelize: 6.37.0(sqlite3@5.1.7)
+      sequelize: 6.37.1(sqlite3@5.1.7)
       sqlite3: 5.1.7(bluebird@3.7.2)
     transitivePeerDependencies:
       - ibm_db
@@ -5198,8 +5197,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: false
 
-  /sequelize@6.37.0(sqlite3@5.1.7):
-    resolution: {integrity: sha512-MS6j6aXqWzB3fe9FhmfpQMgVC16bBdYroJCqIqR0l9M2ko8pZdKoi/0PiNWgMyFQDXUHxXyAOG3K07CbnOhteQ==}
+  /sequelize@6.37.1(sqlite3@5.1.7):
+    resolution: {integrity: sha512-vIKKzQ9dGp2aBOxQRD1FmUYViuQiKXSJ8yah8TsaBx4U3BokJt+Y2A0qz2C4pj08uX59qpWxRqSLEfRmVOEgQw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       ibm_db: '*'
