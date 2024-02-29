@@ -136,7 +136,7 @@ export class ModuleManager {
     const c = this.config
     const bots: BotMap = {}
     const mods = await Promise.all(c.mods.map(mod => this.getPackageMain(mod)))
-    for (const [name, bot] of Object.values(c.bots)) {
+    for (const [name, bot] of Object.entries(c.bots)) {
       if (bot.startsWith('.')) {
         bots[name] = bot
       } else {
