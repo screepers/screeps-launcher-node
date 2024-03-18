@@ -292,8 +292,8 @@ packages:
     resolution: {integrity: sha512-k4MGaQl5TGo/iipqb2UDG2UwjXziSWkh0uysQelTlJpX1qGlpUZYm8PnO4DxG1qBomtJUdYJ6qR6xdIah10JLg==}
     dev: true
 
-  /@types/lodash@4.14.202:
-    resolution: {integrity: sha512-OvlIYQK9tNneDlS0VN54LLd5uiPCBOp7gS5Z0f1mjoJYBrtStzgmJBxONW3U6OZqdtNzZPmn9BS/7WI7BFFcFQ==}
+  /@types/lodash@4.17.0:
+    resolution: {integrity: sha512-t7dhREVv6dbNj0q17X12j7yDG4bD/DHYX7o5/DbDxobP0HnGPgpRz2Ej77aL7TZT3DSw13fqUTj8J4mMnqa7WA==}
     dev: false
 
   /@types/ms@0.7.34:
@@ -618,8 +618,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: false
 
-  /aws-sdk@2.1574.0:
-    resolution: {integrity: sha512-AC3VptGeggp7AFGj66PIt9GrnLyDBo7Owb5TmbGDe2OIvgeHH3nBD4S3wRZQ9u3Ea6iREnalXxQ2n5rflCeG9g==}
+  /aws-sdk@2.1579.0:
+    resolution: {integrity: sha512-TYv/bK2kVT/dfrpjAPL6sEhku4uH9EB18gRa6p9gi0fPtmhe49HrYoN2xmPNSqLPj4/CtSXmZhg91Ny1DhG8/Q==}
     engines: {node: '>= 10.0.0'}
     requiresBuild: true
     dependencies:
@@ -729,8 +729,8 @@ packages:
     dev: false
     optional: true
 
-  /binary-extensions@2.2.0:
-    resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
+  /binary-extensions@2.3.0:
+    resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
     requiresBuild: true
     dev: false
@@ -2826,7 +2826,7 @@ packages:
     engines: {node: '>=8'}
     requiresBuild: true
     dependencies:
-      binary-extensions: 2.2.0
+      binary-extensions: 2.3.0
     dev: false
     optional: true
 
@@ -3033,7 +3033,7 @@ packages:
     resolution: {integrity: sha512-uZ25/bUAlUY5fR4OKT4rZQEBrzQWYV9ZJYGGsUmEJ6thodVJ1HX64ePQ6Z0qPWP+m+Uq6e9UugrE38jeYsDSMw==}
     engines: {node: '>= 0.4'}
     dependencies:
-      which-typed-array: 1.1.14
+      which-typed-array: 1.1.15
     dev: false
 
   /is-typedarray@1.0.0:
@@ -5087,7 +5087,7 @@ packages:
   /screepsmod-history@1.6.0:
     resolution: {integrity: sha512-fO9KEgj1133kwsHT05Mj6cTsZ0OnDrmne/MRy1Yca7hxNqOYJOR2zJP8Nsu2tuRGwCmBJYJzttKWuy3Axqpwjg==}
     dependencies:
-      aws-sdk: 2.1574.0
+      aws-sdk: 2.1579.0
       bluebird: 3.7.2
       ini: 1.3.8
       lodash: 4.17.21
@@ -5110,7 +5110,7 @@ packages:
   /screepsmod-mail-aws-ses@1.1.0:
     resolution: {integrity: sha512-xwwDGfFz5YixhRjWPqs1A6stMojxlIQvm6BsLXGBBzlXGqdUZOIsIcrpTEFHVVxNsVxxbw7NpYVHZAvxJhsZzg==}
     dependencies:
-      aws-sdk: 2.1574.0
+      aws-sdk: 2.1579.0
       handlebars: 4.7.8
       nodemailer: 6.9.12
     dev: false
@@ -6108,7 +6108,7 @@ packages:
       is-arguments: 1.1.1
       is-generator-function: 1.0.10
       is-typed-array: 1.1.13
-      which-typed-array: 1.1.14
+      which-typed-array: 1.1.15
     dev: false
 
   /utils-merge@1.0.1:
@@ -6258,8 +6258,8 @@ packages:
     resolution: {integrity: sha512-iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==}
     dev: false
 
-  /which-typed-array@1.1.14:
-    resolution: {integrity: sha512-VnXFiIW8yNn9kIHN88xvZ4yOWchftKDsRJ8fEPacX/wl1lOvBrhsJ/OeJCXq7B0AaijRuqgzSKalJoPk+D8MPg==}
+  /which-typed-array@1.1.15:
+    resolution: {integrity: sha512-oV0jmFtUky6CXfkqehVvBP/LSWJ2sy4vWMioiENyJLePrBO/yKyV9OyJySfAKosh+RYkIl5zJCNZ8/4JncrpdA==}
     engines: {node: '>= 0.4'}
     dependencies:
       available-typed-arrays: 1.0.7
@@ -6419,7 +6419,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       '@babel/runtime': 7.24.0
-      '@types/lodash': 4.14.202
+      '@types/lodash': 4.17.0
       lodash: 4.17.21
       lodash-es: 4.17.21
       nanoclone: 0.2.1
