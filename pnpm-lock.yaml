@@ -88,14 +88,6 @@ devDependencies:
 
 packages:
 
-  /@babel/code-frame@7.23.5:
-    resolution: {integrity: sha512-CgH3s1a96LipHCmSUmYFPwY7MNx8C3avkq7i4Wl3cfa662ldtUe4VM1TPXX70pfmrlWTb6jLqTYrZyT2ZTJBgA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/highlight': 7.23.4
-      chalk: 2.4.2
-    dev: false
-
   /@babel/code-frame@7.24.2:
     resolution: {integrity: sha512-y5+tLQyV8pg3fsiln67BVLD1P13Eg4lh5RW9mF0zUuvLrv9uIQ4MCL+CRT+FTsBlBjcIan6PGsLcBN0m3ClUyQ==}
     engines: {node: '>=6.9.0'}
@@ -109,15 +101,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: false
 
-  /@babel/highlight@7.23.4:
-    resolution: {integrity: sha512-acGdbYSfp2WheJoJm/EBBBLh/ID8KDc64ISZ9DYtBmC8/Q204PZJLHyzeB5qMzJ5trcOkybd78M4x2KWsUq++A==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.22.20
-      chalk: 2.4.2
-      js-tokens: 4.0.0
-    dev: false
-
   /@babel/highlight@7.24.2:
     resolution: {integrity: sha512-Yac1ao4flkTxTteCDZLEvdxg2fZfz1v8M4QpaGypq/WPDqg3ijHYbDfs+LG5hvzSoqaSZ9/Z9lKSP3CjZjv+pA==}
     engines: {node: '>=6.9.0'}
@@ -128,8 +111,8 @@ packages:
       picocolors: 1.0.0
     dev: false
 
-  /@babel/runtime@7.24.0:
-    resolution: {integrity: sha512-Chk32uHMg6TnQdvw2e9IlqPpFX/6NLuK0Ys2PqLb7/gL5uFn9mXvK715FGLlOLQrcO4qIkNHkvPGktzzXexsFw==}
+  /@babel/runtime@7.24.1:
+    resolution: {integrity: sha512-+BIznRzyqBf+2wCTxcKE3wDjfGeCoVE61KSHGpkzqrLi8qxqFwBeUFyId2cxkTmm55fzDGnm0+yCxaxygrLUnQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
@@ -208,7 +191,7 @@ packages:
       body-parser: 1.20.2
       btoa: 1.2.1
       cookie-parser: 1.4.6
-      express: 4.18.3
+      express: 4.19.1
       express-session: 1.18.0
       lodash: 3.10.1
       passport: 0.3.2
@@ -276,8 +259,8 @@ packages:
     dev: false
     optional: true
 
-  /@tsconfig/node10@1.0.9:
-    resolution: {integrity: sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA==}
+  /@tsconfig/node10@1.0.10:
+    resolution: {integrity: sha512-PiaIWIoPvO6qm6t114ropMCagj6YAF24j9OkCA2mJDXFnlionEwhsBCJ8yek4aib575BI3OkART/90WsgHgLWw==}
     dev: true
 
   /@tsconfig/node12@1.0.11:
@@ -636,8 +619,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: false
 
-  /aws-sdk@2.1579.0:
-    resolution: {integrity: sha512-TYv/bK2kVT/dfrpjAPL6sEhku4uH9EB18gRa6p9gi0fPtmhe49HrYoN2xmPNSqLPj4/CtSXmZhg91Ny1DhG8/Q==}
+  /aws-sdk@2.1584.0:
+    resolution: {integrity: sha512-57Qizb+bLOhrBLWQSWw6WXTtbO/lFKzLouHxTfm/QeXm38gs0Q0knFxhdH+sWc/DPPJYSRGy7MNiuQcmsq5zxA==}
     engines: {node: '>= 10.0.0'}
     requiresBuild: true
     dependencies:
@@ -1019,7 +1002,7 @@ packages:
       promise-inflight: 1.0.1(bluebird@3.7.2)
       rimraf: 3.0.2
       ssri: 8.0.1
-      tar: 6.2.0
+      tar: 6.2.1
       unique-filename: 1.1.1
     transitivePeerDependencies:
       - bluebird
@@ -1584,8 +1567,8 @@ packages:
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
     dev: false
 
-  /detect-libc@2.0.2:
-    resolution: {integrity: sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==}
+  /detect-libc@2.0.3:
+    resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
     engines: {node: '>=8'}
     dev: false
 
@@ -1832,7 +1815,7 @@ packages:
     engines: {node: ^6.14.0 || ^8.10.0 || >=9.10.0}
     hasBin: true
     dependencies:
-      '@babel/code-frame': 7.23.5
+      '@babel/code-frame': 7.24.2
       ajv: 6.12.6
       chalk: 2.4.2
       cross-spawn: 6.0.5
@@ -2006,8 +1989,8 @@ packages:
       - supports-color
     dev: false
 
-  /express@4.18.3:
-    resolution: {integrity: sha512-6VyCijWQ+9O7WuVMTRBTl+cjNNIzD5cY5mQ1WM8r/LEkI2u8EYpOotESNwzNlyCn3g+dmjKYI6BmNneSr/FSRw==}
+  /express@4.19.1:
+    resolution: {integrity: sha512-K4w1/Bp7y8iSiVObmCrtq8Cs79XjJc/RU2YYkZQ7wpUu5ZyZ7MtPHkqoMz4pf+mgXfNvo2qft8D9OnrH2ABk9w==}
     engines: {node: '>= 0.10.0'}
     dependencies:
       accepts: 1.3.8
@@ -2015,7 +1998,7 @@ packages:
       body-parser: 1.20.2
       content-disposition: 0.5.4
       content-type: 1.0.5
-      cookie: 0.5.0
+      cookie: 0.6.0
       cookie-signature: 1.0.6
       debug: 2.6.9(supports-color@4.5.0)
       depd: 2.0.0
@@ -2850,7 +2833,6 @@ packages:
 
   /is-buffer@1.1.6:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
-    requiresBuild: true
     dev: false
 
   /is-buffer@2.0.5:
@@ -3802,7 +3784,7 @@ packages:
       npmlog: 6.0.2
       rimraf: 3.0.2
       semver: 7.6.0
-      tar: 6.2.0
+      tar: 6.2.1
       which: 2.0.2
     transitivePeerDependencies:
       - bluebird
@@ -3842,8 +3824,8 @@ packages:
     resolution: {integrity: sha512-7TXAhpMm+jO4MfESxYLtMGSnJWv+itdNHMdaFmeZuPXxwFGU90mtEB42BciUULXOUAxYBfXILAuvrSG3rQZ7mw==}
     dev: false
 
-  /nodemailer@6.9.12:
-    resolution: {integrity: sha512-pnLo7g37Br3jXbF0bl5DekBJihm2q+3bB3l2o/B060sWmb5l+VqeScAQCBqaQ+5ezRZFzW5SciZNGdRDEbq89w==}
+  /nodemailer@6.9.13:
+    resolution: {integrity: sha512-7o38Yogx6krdoBf3jCAqnIN4oSQFx+fMa0I7dK1D+me9kBxx12D+/33wSb+fhOCtIxvYJ+4x4IMEhmhCKfAiOA==}
     engines: {node: '>=6.0.0'}
     dev: false
 
@@ -4528,7 +4510,7 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      detect-libc: 2.0.2
+      detect-libc: 2.0.3
       expand-template: 2.0.3
       github-from-package: 0.0.0
       minimist: 1.2.8
@@ -5060,7 +5042,7 @@ packages:
   /screepsmod-admin-utils-ui@0.4.0:
     resolution: {integrity: sha512-8x5H+i42gDRTHpYvorDdt42GNL+BZilCXCeOsbMWMOBfBrKFz7RATJ8Dk00d/gitx8byZ4d7Z+Co507tlZ6m8w==}
     dependencies:
-      express: 4.18.3
+      express: 4.19.1
       vue-router-layout: 0.1.6
     transitivePeerDependencies:
       - supports-color
@@ -5091,7 +5073,7 @@ packages:
       basic-auth: 1.1.0
       body-parser: 1.20.2
       cookie-parser: 1.4.6
-      express: 4.18.3
+      express: 4.19.1
       ini: 1.3.8
       passport: 0.3.2
       passport-github: 1.1.0
@@ -5110,7 +5092,7 @@ packages:
   /screepsmod-history@1.6.0:
     resolution: {integrity: sha512-fO9KEgj1133kwsHT05Mj6cTsZ0OnDrmne/MRy1Yca7hxNqOYJOR2zJP8Nsu2tuRGwCmBJYJzttKWuy3Axqpwjg==}
     dependencies:
-      aws-sdk: 2.1579.0
+      aws-sdk: 2.1584.0
       bluebird: 3.7.2
       ini: 1.3.8
       lodash: 4.17.21
@@ -5133,9 +5115,9 @@ packages:
   /screepsmod-mail-aws-ses@1.1.0:
     resolution: {integrity: sha512-xwwDGfFz5YixhRjWPqs1A6stMojxlIQvm6BsLXGBBzlXGqdUZOIsIcrpTEFHVVxNsVxxbw7NpYVHZAvxJhsZzg==}
     dependencies:
-      aws-sdk: 2.1579.0
+      aws-sdk: 2.1584.0
       handlebars: 4.7.8
-      nodemailer: 6.9.12
+      nodemailer: 6.9.13
     dev: false
 
   /screepsmod-map-tool@1.10.0:
@@ -5154,7 +5136,7 @@ packages:
     resolution: {integrity: sha512-NTnsSnhok+kYiF1PAMamP1GlvjWXQG8dKejmO/47HiQ3jEOyFxRYDA51Yo1IQ44sWnUkXwksraBtmbtQvOSZkQ==}
     dependencies:
       body-parser: 1.20.2
-      express: 4.18.3
+      express: 4.19.1
       ini: 1.3.8
       lodash: 4.17.21
       mongodb: 3.7.4
@@ -5548,7 +5530,7 @@ packages:
       bindings: 1.5.0
       node-addon-api: 7.1.0
       prebuild-install: 7.1.2
-      tar: 6.2.0
+      tar: 6.2.1
     optionalDependencies:
       node-gyp: 8.4.1(bluebird@3.7.2)
     transitivePeerDependencies:
@@ -5774,8 +5756,8 @@ packages:
       readable-stream: 3.6.2
     dev: false
 
-  /tar@6.2.0:
-    resolution: {integrity: sha512-/Wo7DcT0u5HUV486xg675HtjNd3BXZ6xDbzsCUZPt5iw8bTQ63bP0Raut3mvro9u+CUyq7YQd8Cx55fsZXxqLQ==}
+  /tar@6.2.1:
+    resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
     dependencies:
       chownr: 2.0.0
@@ -5888,7 +5870,7 @@ packages:
         optional: true
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.9
+      '@tsconfig/node10': 1.0.10
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
@@ -6441,7 +6423,7 @@ packages:
     resolution: {integrity: sha512-Ci1qN+i2H0XpY7syDQ0k5zKQ/DoxO0LzPg8PAR/X4Mpj6DqaeCoIYEEjDJwhArh3Fa7GWbQQVDZKeXYlSH4JMg==}
     engines: {node: '>=10'}
     dependencies:
-      '@babel/runtime': 7.24.0
+      '@babel/runtime': 7.24.1
       '@types/lodash': 4.17.0
       lodash: 4.17.21
       lodash-es: 4.17.21
