@@ -191,7 +191,7 @@ packages:
       body-parser: 1.20.2
       btoa: 1.2.1
       cookie-parser: 1.4.6
-      express: 4.19.1
+      express: 4.19.2
       express-session: 1.18.0
       lodash: 3.10.1
       passport: 0.3.2
@@ -259,8 +259,8 @@ packages:
     dev: false
     optional: true
 
-  /@tsconfig/node10@1.0.10:
-    resolution: {integrity: sha512-PiaIWIoPvO6qm6t114ropMCagj6YAF24j9OkCA2mJDXFnlionEwhsBCJ8yek4aib575BI3OkART/90WsgHgLWw==}
+  /@tsconfig/node10@1.0.11:
+    resolution: {integrity: sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw==}
     dev: true
 
   /@tsconfig/node12@1.0.11:
@@ -619,8 +619,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: false
 
-  /aws-sdk@2.1584.0:
-    resolution: {integrity: sha512-57Qizb+bLOhrBLWQSWw6WXTtbO/lFKzLouHxTfm/QeXm38gs0Q0knFxhdH+sWc/DPPJYSRGy7MNiuQcmsq5zxA==}
+  /aws-sdk@2.1589.0:
+    resolution: {integrity: sha512-Tt3UHH6hoUEAjbCscqvfEAoq9VSTN5iSQO9XSisiiH/QJo8sf+iLCYmfJHM4tVkd92bQH61/xxj9t2Mazwc/WQ==}
     engines: {node: '>= 10.0.0'}
     requiresBuild: true
     dependencies:
@@ -1989,8 +1989,8 @@ packages:
       - supports-color
     dev: false
 
-  /express@4.19.1:
-    resolution: {integrity: sha512-K4w1/Bp7y8iSiVObmCrtq8Cs79XjJc/RU2YYkZQ7wpUu5ZyZ7MtPHkqoMz4pf+mgXfNvo2qft8D9OnrH2ABk9w==}
+  /express@4.19.2:
+    resolution: {integrity: sha512-5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q==}
     engines: {node: '>= 0.10.0'}
     dependencies:
       accepts: 1.3.8
@@ -2833,7 +2833,6 @@ packages:
 
   /is-buffer@1.1.6:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
-    requiresBuild: true
     dev: false
 
   /is-buffer@2.0.5:
@@ -3759,8 +3758,8 @@ packages:
       lower-case: 1.1.4
     dev: false
 
-  /node-abi@3.56.0:
-    resolution: {integrity: sha512-fZjdhDOeRcaS+rcpve7XuwHBmktS1nS1gzgghwKUQQ8nTy2FdSDr6ZT8k6YhvlJeHmmQMYiT/IH9hfco5zeW2Q==}
+  /node-abi@3.57.0:
+    resolution: {integrity: sha512-Dp+A9JWxRaKuHP35H77I4kCKesDy5HUDEmScia2FyncMTOXASMyg251F5PhFoDA5uqBrDDffiLpbqnrZmNXW+g==}
     engines: {node: '>=10'}
     dependencies:
       semver: 7.6.0
@@ -4461,8 +4460,8 @@ packages:
     resolution: {integrity: sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==}
     dev: false
 
-  /pg-connection-string@2.6.2:
-    resolution: {integrity: sha512-ch6OwaeaPYcova4kKZ15sbJ2hKb/VP48ZD2gE7i1J+L4MspCtBMAx8nMgz7bksc7IojCIIWuEhHibSMFH8m8oA==}
+  /pg-connection-string@2.6.3:
+    resolution: {integrity: sha512-77FxhhKJQH+xJx6tDqkhhMa0nZvv3U1HYLDQgwZxZafVD583++O5LXn5oo5HaQZ0vXwYcZA1koYAJM3JvD6Gtw==}
     dev: false
 
   /pick-deep@1.0.0:
@@ -4517,7 +4516,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.56.0
+      node-abi: 3.57.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -5043,7 +5042,7 @@ packages:
   /screepsmod-admin-utils-ui@0.4.0:
     resolution: {integrity: sha512-8x5H+i42gDRTHpYvorDdt42GNL+BZilCXCeOsbMWMOBfBrKFz7RATJ8Dk00d/gitx8byZ4d7Z+Co507tlZ6m8w==}
     dependencies:
-      express: 4.19.1
+      express: 4.19.2
       vue-router-layout: 0.1.6
     transitivePeerDependencies:
       - supports-color
@@ -5074,7 +5073,7 @@ packages:
       basic-auth: 1.1.0
       body-parser: 1.20.2
       cookie-parser: 1.4.6
-      express: 4.19.1
+      express: 4.19.2
       ini: 1.3.8
       passport: 0.3.2
       passport-github: 1.1.0
@@ -5093,13 +5092,13 @@ packages:
   /screepsmod-history@1.6.0:
     resolution: {integrity: sha512-fO9KEgj1133kwsHT05Mj6cTsZ0OnDrmne/MRy1Yca7hxNqOYJOR2zJP8Nsu2tuRGwCmBJYJzttKWuy3Axqpwjg==}
     dependencies:
-      aws-sdk: 2.1584.0
+      aws-sdk: 2.1589.0
       bluebird: 3.7.2
       ini: 1.3.8
       lodash: 4.17.21
       mkdirp: 0.5.6
       node-worker-threads-pool: 1.5.1
-      sequelize: 6.37.1(sqlite3@5.1.7)
+      sequelize: 6.37.2(sqlite3@5.1.7)
       sqlite3: 5.1.7(bluebird@3.7.2)
     transitivePeerDependencies:
       - ibm_db
@@ -5116,7 +5115,7 @@ packages:
   /screepsmod-mail-aws-ses@1.1.0:
     resolution: {integrity: sha512-xwwDGfFz5YixhRjWPqs1A6stMojxlIQvm6BsLXGBBzlXGqdUZOIsIcrpTEFHVVxNsVxxbw7NpYVHZAvxJhsZzg==}
     dependencies:
-      aws-sdk: 2.1584.0
+      aws-sdk: 2.1589.0
       handlebars: 4.7.8
       nodemailer: 6.9.13
     dev: false
@@ -5137,7 +5136,7 @@ packages:
     resolution: {integrity: sha512-NTnsSnhok+kYiF1PAMamP1GlvjWXQG8dKejmO/47HiQ3jEOyFxRYDA51Yo1IQ44sWnUkXwksraBtmbtQvOSZkQ==}
     dependencies:
       body-parser: 1.20.2
-      express: 4.19.1
+      express: 4.19.2
       ini: 1.3.8
       lodash: 4.17.21
       mongodb: 3.7.4
@@ -5204,8 +5203,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: false
 
-  /sequelize@6.37.1(sqlite3@5.1.7):
-    resolution: {integrity: sha512-vIKKzQ9dGp2aBOxQRD1FmUYViuQiKXSJ8yah8TsaBx4U3BokJt+Y2A0qz2C4pj08uX59qpWxRqSLEfRmVOEgQw==}
+  /sequelize@6.37.2(sqlite3@5.1.7):
+    resolution: {integrity: sha512-bnb7swGANONXCTrVyebpOOZssLwQrVkYX2tcC6qOIvH+P+OhsoMBi7c3GXI5bC+Z4b4tOl+kQy6yeqLCZ1YQAQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       ibm_db: '*'
@@ -5245,7 +5244,7 @@ packages:
       lodash: 4.17.21
       moment: 2.30.1
       moment-timezone: 0.5.45
-      pg-connection-string: 2.6.2
+      pg-connection-string: 2.6.3
       retry-as-promised: 7.0.4
       semver: 7.6.0
       sequelize-pool: 7.1.0
@@ -5871,7 +5870,7 @@ packages:
         optional: true
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.10
+      '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
