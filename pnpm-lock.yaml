@@ -619,8 +619,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: false
 
-  /aws-sdk@2.1594.0:
-    resolution: {integrity: sha512-ZvJ63Vm/ZuygGuO19n1PjPkyo4OcKQzgK62kAhsp4SUBDMYuemOXHpIH+ORFOjO8Js7exoqHtNS4p9fHt6cW2Q==}
+  /aws-sdk@2.1599.0:
+    resolution: {integrity: sha512-jPb1LAN+s1TLTK+VR3TTJLr//sb3AhhT60Bm9jxB5G/fVeeRczXtBtixNpQ00gksQdkstILYLc9S6MuKMsksxA==}
     engines: {node: '>= 10.0.0'}
     requiresBuild: true
     dependencies:
@@ -4297,7 +4297,7 @@ packages:
       is-uuid: 1.0.2
       ms: 2.1.3
       no-case: 2.3.2
-      qs: 6.12.0
+      qs: 6.12.1
       rfdc: 1.3.1
       sensitive-fields: 1.0.1
       url-parse: 1.5.10
@@ -4645,8 +4645,8 @@ packages:
       side-channel: 1.0.6
     dev: false
 
-  /qs@6.12.0:
-    resolution: {integrity: sha512-trVZiI6RMOkO476zLGaBIzszOdFPnCCXHPG9kn0yuS1uz6xdVxPfZdB3vUig9pxPFDM9BRAgz/YUIVQ1/vuiUg==}
+  /qs@6.12.1:
+    resolution: {integrity: sha512-zWmv4RSuB9r2mYQw3zxQuHWeU+42aKi1wWig/j4ele4ygELZ7PEO6MM7rim9oAQH2A5MWfsAVf/jPvTPgCbvUQ==}
     engines: {node: '>=0.6'}
     dependencies:
       side-channel: 1.0.6
@@ -5093,13 +5093,13 @@ packages:
   /screepsmod-history@1.6.0:
     resolution: {integrity: sha512-fO9KEgj1133kwsHT05Mj6cTsZ0OnDrmne/MRy1Yca7hxNqOYJOR2zJP8Nsu2tuRGwCmBJYJzttKWuy3Axqpwjg==}
     dependencies:
-      aws-sdk: 2.1594.0
+      aws-sdk: 2.1599.0
       bluebird: 3.7.2
       ini: 1.3.8
       lodash: 4.17.21
       mkdirp: 0.5.6
       node-worker-threads-pool: 1.5.1
-      sequelize: 6.37.2(sqlite3@5.1.7)
+      sequelize: 6.37.3(sqlite3@5.1.7)
       sqlite3: 5.1.7(bluebird@3.7.2)
     transitivePeerDependencies:
       - ibm_db
@@ -5116,7 +5116,7 @@ packages:
   /screepsmod-mail-aws-ses@1.1.0:
     resolution: {integrity: sha512-xwwDGfFz5YixhRjWPqs1A6stMojxlIQvm6BsLXGBBzlXGqdUZOIsIcrpTEFHVVxNsVxxbw7NpYVHZAvxJhsZzg==}
     dependencies:
-      aws-sdk: 2.1594.0
+      aws-sdk: 2.1599.0
       handlebars: 4.7.8
       nodemailer: 6.9.13
     dev: false
@@ -5204,8 +5204,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: false
 
-  /sequelize@6.37.2(sqlite3@5.1.7):
-    resolution: {integrity: sha512-bnb7swGANONXCTrVyebpOOZssLwQrVkYX2tcC6qOIvH+P+OhsoMBi7c3GXI5bC+Z4b4tOl+kQy6yeqLCZ1YQAQ==}
+  /sequelize@6.37.3(sqlite3@5.1.7):
+    resolution: {integrity: sha512-V2FTqYpdZjPy3VQrZvjTPnOoLm0KudCRXfGWp48QwhyPPp2yW8z0p0sCYZd/em847Tl2dVxJJ1DR+hF+O77T7A==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       ibm_db: '*'
@@ -5425,14 +5425,14 @@ packages:
     dependencies:
       agent-base: 6.0.2
       debug: 4.3.4
-      socks: 2.8.1
+      socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
     dev: false
     optional: true
 
-  /socks@2.8.1:
-    resolution: {integrity: sha512-B6w7tkwNid7ToxjZ08rQMT8M9BJAf8DKx8Ft4NivzH0zBUfd6jldGcisJn/RLgxcX3FPNDdNQCUEMMT79b+oCQ==}
+  /socks@2.8.3:
+    resolution: {integrity: sha512-l5x7VUUWbjVFbafGLxPWkYsHIhEvmF85tbIeFZWc8ZPtoMyybuEhL7Jye/ooC4/d48FgOjSJXgsF/AJPYCW8Zw==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
     requiresBuild: true
     dependencies:
@@ -5583,7 +5583,7 @@ packages:
     resolution: {integrity: sha512-FgSYhL7GaP4Va5JKT09yZ+WrTZttFtLwenIPuZd7GUA1z3W7vu7qqPT/qTC76Pd9+sf85txMgIPr/y0+3gNlUA==}
     engines: {'0': node >= 0.4.0}
     dependencies:
-      qs: 6.12.0
+      qs: 6.12.1
     dev: false
 
   /steam-webapi@0.6.5:
@@ -6081,7 +6081,7 @@ packages:
     resolution: {integrity: sha512-6hxOLGfZASQK/cijlZnZJTq8OXAkt/3YGfQX45vvMYXpZoo8NdWZcY73K108Jf759lS1Bv/8wXnHDTSz17dSRw==}
     dependencies:
       punycode: 1.4.1
-      qs: 6.12.0
+      qs: 6.12.1
     dev: false
 
   /use@3.1.1:
