@@ -28,7 +28,7 @@ dependencies:
     version: 5.1.2
   bree:
     specifier: ^9.1.3
-    version: 9.2.2
+    version: 9.2.3
   cabin:
     specifier: ^13.2.5
     version: 13.2.6(axe@12.2.6)
@@ -111,8 +111,8 @@ packages:
       picocolors: 1.0.0
     dev: false
 
-  /@babel/runtime@7.24.4:
-    resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
+  /@babel/runtime@7.24.5:
+    resolution: {integrity: sha512-Nms86NXrsaeU9vbBJKni6gXiEXZ4CVpYVzEjDH9Sb8vmZ3UljyA1GSOJl/6LGPO8EHLuSF9H+IxNXHPX8QHJ4g==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
@@ -830,8 +830,8 @@ packages:
     dev: false
     optional: true
 
-  /bree@9.2.2:
-    resolution: {integrity: sha512-KtLjikQwi4RJLMpMj1QEviwh+1UDFIK1ejVa1AiWtAtA0NL7kvLsCpaTxCYTNEx40Q7IA3JWP7utVoGGJh11/w==}
+  /bree@9.2.3:
+    resolution: {integrity: sha512-iCVyLVcqql8rFogVX5gzkofdo6OZu8mxe5dUSkAZyaR43UdNfP0DOj3jJk31yogy6lfnRMhGvO5Gj1ypLeInuA==}
     engines: {node: '>=12.17.0 <13.0.0-0||>=13.2.0'}
     dependencies:
       '@breejs/later': 4.2.0
@@ -2833,6 +2833,7 @@ packages:
 
   /is-buffer@1.1.6:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
+    requiresBuild: true
     dev: false
 
   /is-buffer@2.0.5:
@@ -6423,7 +6424,7 @@ packages:
     resolution: {integrity: sha512-Ci1qN+i2H0XpY7syDQ0k5zKQ/DoxO0LzPg8PAR/X4Mpj6DqaeCoIYEEjDJwhArh3Fa7GWbQQVDZKeXYlSH4JMg==}
     engines: {node: '>=10'}
     dependencies:
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
       '@types/lodash': 4.17.0
       lodash: 4.17.21
       lodash-es: 4.17.21
