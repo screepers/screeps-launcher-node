@@ -40,7 +40,7 @@ dependencies:
     version: 1.0.3
   screepsmod-admin-utils:
     specifier: ^1.31.1
-    version: 1.31.2(@screeps/backend@3.2.6)
+    version: 1.32.0(@screeps/backend@3.2.6)
   screepsmod-auth:
     specifier: ^2.8.1
     version: 2.8.2(@screeps/backend@3.2.6)
@@ -5058,8 +5058,8 @@ packages:
       - supports-color
     dev: false
 
-  /screepsmod-admin-utils@1.31.2(@screeps/backend@3.2.6):
-    resolution: {integrity: sha512-GdYLBViPsSKlP85nyHFJXCDAY4aR5e4Vo2sA88R9/L1bgs4RmTr9DSU72yf60+TRo5mUK5Ftf7RpCykPGu0apg==}
+  /screepsmod-admin-utils@1.32.0(@screeps/backend@3.2.6):
+    resolution: {integrity: sha512-ufin5tlcEHmQiMHy5UF/saA+cahHukREXIzIjjndhtVIWZN9rJNVtz6ES8MPpoJiel5qVmPO43UdkqGjLX0wrw==}
     peerDependencies:
       '@screeps/backend': '>=3.2.3'
     dependencies:
