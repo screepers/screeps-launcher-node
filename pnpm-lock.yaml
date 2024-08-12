@@ -159,6 +159,7 @@ packages:
   /@ladjs/graceful@3.2.2:
     resolution: {integrity: sha512-GyL5Cpgh2RlndFW2e4AUHrEDe0tzyXKpAs92wrAQhNKcY0y++qfK8PC+6TOHzN9zvxPY9j1KAU29Gfa9vxWzDg==}
     engines: {node: '>=14'}
+    deprecated: Please upgrade to @ladjs/graceful@4.0.1+ as we have fixed a bug where custom handlers and servers may require redis/mongo connection for functionality, and if disconnected could throw an uncaught exception; https://github.com/ladjs/graceful/releases/tag/v4.0.1 (maintained by @forwardemail @ https://forwardemail.net)
     dependencies:
       lil-http-terminator: 1.2.3
       p-is-promise: 3.0.0
@@ -622,8 +623,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: false
 
-  /aws-sdk@2.1667.0:
-    resolution: {integrity: sha512-hE4FmdZRMc3bYeC5LUAAU/ryYpjhEm1xdi4aVtUiZ14rrfMd0li6XQIM00a9ctZwDJpwJppcSXfDj6bVBCzvXQ==}
+  /aws-sdk@2.1672.0:
+    resolution: {integrity: sha512-en4uaVWE/wPa9YsF2XAYtKP0hLQ10s93/nWe+SQ8Yox1xrDn1Tr32MMOtSLRXLxPRKcvmI7Yzw7jiQMgs1jqBQ==}
     engines: {node: '>= 10.0.0'}
     requiresBuild: true
     dependencies:
@@ -643,8 +644,8 @@ packages:
     resolution: {integrity: sha512-08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==}
     dev: false
 
-  /aws4@1.13.0:
-    resolution: {integrity: sha512-3AungXC4I8kKsS9PuS4JH2nc+0bVY/mjgrephHTIi8fpEeGsTHBUJeosp0Wc1myYMElmD0B3Oc4XL/HVJ4PV2g==}
+  /aws4@1.13.1:
+    resolution: {integrity: sha512-u5w79Rd7SU4JaIlA/zFqG+gOiuq25q5VLyZ8E+ijJeILuTxVzZgp2CaGw/UTw6pXYN9XMO9yiqj/nEHmhTG5CA==}
     dev: false
 
   /axe@12.2.9:
@@ -2428,7 +2429,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.19.1
+      uglify-js: 3.19.2
     dev: false
 
   /har-schema@2.0.0:
@@ -4883,7 +4884,7 @@ packages:
     deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
     dependencies:
       aws-sign2: 0.7.0
-      aws4: 1.13.0
+      aws4: 1.13.1
       caseless: 0.12.0
       combined-stream: 1.0.8
       extend: 3.0.2
@@ -5111,7 +5112,7 @@ packages:
   /screepsmod-history@1.6.0:
     resolution: {integrity: sha512-fO9KEgj1133kwsHT05Mj6cTsZ0OnDrmne/MRy1Yca7hxNqOYJOR2zJP8Nsu2tuRGwCmBJYJzttKWuy3Axqpwjg==}
     dependencies:
-      aws-sdk: 2.1667.0
+      aws-sdk: 2.1672.0
       bluebird: 3.7.2
       ini: 1.3.8
       lodash: 4.17.21
@@ -5134,7 +5135,7 @@ packages:
   /screepsmod-mail-aws-ses@1.1.0:
     resolution: {integrity: sha512-xwwDGfFz5YixhRjWPqs1A6stMojxlIQvm6BsLXGBBzlXGqdUZOIsIcrpTEFHVVxNsVxxbw7NpYVHZAvxJhsZzg==}
     dependencies:
-      aws-sdk: 2.1667.0
+      aws-sdk: 2.1672.0
       handlebars: 4.7.8
       nodemailer: 6.9.14
     dev: false
@@ -5967,8 +5968,8 @@ packages:
       uglify-to-browserify: 1.0.2
     dev: false
 
-  /uglify-js@3.19.1:
-    resolution: {integrity: sha512-y/2wiW+ceTYR2TSSptAhfnEtpLaQ4Ups5zrjB2d3kuVxHj16j/QJwPl5PvuGy9uARb39J0+iKxcRPvtpsx4A4A==}
+  /uglify-js@3.19.2:
+    resolution: {integrity: sha512-S8KA6DDI47nQXJSi2ctQ629YzwOVs+bQML6DAtvy0wgNdpi+0ySpQK0g2pxBq2xfF2z3YCscu7NNA8nXT9PlIQ==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     requiresBuild: true
