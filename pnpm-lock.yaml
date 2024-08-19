@@ -78,10 +78,10 @@ devDependencies:
     version: 4.0.9
   '@types/node':
     specifier: ^20.9.2
-    version: 20.16.0
+    version: 20.16.1
   ts-node:
     specifier: ^10.9.1
-    version: 10.9.2(@types/node@20.16.0)(typescript@5.5.4)
+    version: 10.9.2(@types/node@20.16.1)(typescript@5.5.4)
   typescript:
     specifier: ^5.2.2
     version: 5.5.4
@@ -302,8 +302,8 @@ packages:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
     dev: false
 
-  /@types/node@20.16.0:
-    resolution: {integrity: sha512-vDxceJcoZhIVh67S568bm1UGZO0DX0hpplJZxzeXMKwIPLn190ec5RRxQ69BKhX44SUGIxxgMdDY557lGLKprQ==}
+  /@types/node@20.16.1:
+    resolution: {integrity: sha512-zJDo7wEadFtSyNz5QITDfRcrhqDvQI1xQNQ0VoizPjM/dVAODqqIUWbJPkvsxmTI0MYRGRikcdjMPhOssnPejQ==}
     dependencies:
       undici-types: 6.19.6
 
@@ -2362,6 +2362,11 @@ packages:
       assert-plus: 1.0.0
     dev: false
 
+  /git-config-path@2.0.0:
+    resolution: {integrity: sha512-qc8h1KIQbJpp+241id3GuAtkdyJ+IK+LIVtkiFTRKRrmddDzs3SI9CvP1QYmWBFvm1I/PWRwj//of8bgAc0ltA==}
+    engines: {node: '>=4'}
+    dev: false
+
   /github-from-package@0.0.0:
     resolution: {integrity: sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==}
     dev: false
@@ -3214,10 +3219,11 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /last-commit-log@3.3.0:
-    resolution: {integrity: sha512-qYzhTltQvQ/mMIDWnG16KyUi79y4F5uEqHDDbAJm2HLuWgDuBhZ8g5PyWomYV0wsDQDuYcPWMQdJ91wsZOZ5NQ==}
+  /last-commit-log@3.4.0:
+    resolution: {integrity: sha512-iP6fOPtGZKy/loeLhpXFgvYMi8VtFUgH9AZII7xn9nr4CGXd+NbuLWumx7NXMydQFX9PgAwMED5VInK3goJmjw==}
     dependencies:
       dotgitconfig: 1.1.2
+      parse-git-config: 3.0.0
     dev: false
 
   /lazy-cache@1.0.4:
@@ -4250,7 +4256,7 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       ip: 1.1.9
-      last-commit-log: 3.3.0
+      last-commit-log: 3.4.0
       lodash: 4.17.21
       read-pkg-up: 7.0.1
       semver: 7.6.3
@@ -4273,6 +4279,14 @@ packages:
     engines: {node: '>=6.4.0'}
     dependencies:
       iserror: 0.0.2
+    dev: false
+
+  /parse-git-config@3.0.0:
+    resolution: {integrity: sha512-wXoQGL1D+2COYWCD35/xbiKma1Z15xvZL8cI25wvxzled58V51SJM04Urt/uznS900iQor7QO04SgdfT/XlbuA==}
+    engines: {node: '>=8'}
+    dependencies:
+      git-config-path: 2.0.0
+      ini: 1.3.8
     dev: false
 
   /parse-json@2.2.0:
@@ -5873,7 +5887,7 @@ packages:
       punycode: 2.3.1
     dev: false
 
-  /ts-node@10.9.2(@types/node@20.16.0)(typescript@5.5.4):
+  /ts-node@10.9.2(@types/node@20.16.1)(typescript@5.5.4):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -5892,7 +5906,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       acorn: 8.12.1
       acorn-walk: 8.3.3
       arg: 4.1.3
@@ -6326,7 +6340,7 @@ packages:
   /wkx@0.5.0:
     resolution: {integrity: sha512-Xng/d4Ichh8uN4l0FToV/258EjMGU9MGcA0HV2d9B/ZpZB3lqQm7nkOdZdm5GhKtLLhAE7PiVQwN4eN+2YJJUg==}
     dependencies:
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
     dev: false
 
   /word-wrap@1.2.5:
