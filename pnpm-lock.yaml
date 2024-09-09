@@ -93,7 +93,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/highlight': 7.24.7
-      picocolors: 1.0.1
+      picocolors: 1.1.0
     dev: false
 
   /@babel/helper-validator-identifier@7.24.7:
@@ -108,7 +108,7 @@ packages:
       '@babel/helper-validator-identifier': 7.24.7
       chalk: 2.4.2
       js-tokens: 4.0.0
-      picocolors: 1.0.1
+      picocolors: 1.1.0
     dev: false
 
   /@babel/runtime@7.25.6:
@@ -380,7 +380,7 @@ packages:
     engines: {node: '>= 6.0.0'}
     requiresBuild: true
     dependencies:
-      debug: 4.3.6
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -623,8 +623,8 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: false
 
-  /aws-sdk@2.1687.0:
-    resolution: {integrity: sha512-Pk7RbIxJ8yDmFJRKzaapiUsAvz5cTPKCz7soomU+lASx1jvO29Z9KAPB6KJR22m7rDDMO/HNNN9OJRzfdvh7xQ==}
+  /aws-sdk@2.1691.0:
+    resolution: {integrity: sha512-/F2YC+DlsY3UBM2Bdnh5RLHOPNibS/+IcjUuhP8XuctyrN+MlL+fWDAiela32LTDk7hMy4rx8MTgvbJ+0blO5g==}
     engines: {node: '>= 10.0.0'}
     requiresBuild: true
     dependencies:
@@ -1453,8 +1453,8 @@ packages:
       ms: 2.0.0
     dev: false
 
-  /debug@4.3.6:
-    resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
+  /debug@4.3.7:
+    resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1462,7 +1462,7 @@ packages:
       supports-color:
         optional: true
     dependencies:
-      ms: 2.1.2
+      ms: 2.1.3
     dev: false
 
   /decamelize@1.2.0:
@@ -1824,7 +1824,7 @@ packages:
       ajv: 6.12.6
       chalk: 2.4.2
       cross-spawn: 6.0.5
-      debug: 4.3.6
+      debug: 4.3.7
       doctrine: 3.0.0
       eslint-scope: 4.0.3
       eslint-utils: 1.4.3
@@ -2625,7 +2625,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.6
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2650,7 +2650,7 @@ packages:
     requiresBuild: true
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.6
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2847,7 +2847,6 @@ packages:
 
   /is-buffer@1.1.6:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
-    requiresBuild: true
     dev: false
 
   /is-buffer@2.0.5:
@@ -3701,10 +3700,6 @@ packages:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
     dev: false
 
-  /ms@2.1.2:
-    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
-    dev: false
-
   /ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: false
@@ -3842,8 +3837,8 @@ packages:
     resolution: {integrity: sha512-7TXAhpMm+jO4MfESxYLtMGSnJWv+itdNHMdaFmeZuPXxwFGU90mtEB42BciUULXOUAxYBfXILAuvrSG3rQZ7mw==}
     dev: false
 
-  /nodemailer@6.9.14:
-    resolution: {integrity: sha512-Dobp/ebDKBvz91sbtRKhcznLThrKxKt97GI2FAlAyy+fk19j73Uz3sBXolVtmcXjaorivqsbbbjDY+Jkt4/bQA==}
+  /nodemailer@6.9.15:
+    resolution: {integrity: sha512-AHf04ySLC6CIfuRtRiEYtGEXgRfa6INgWGluDhnxTZhHSKvrBu7lc1VVchQ0d8nPc4cFaZoPq8vkyNoZr0TpGQ==}
     engines: {node: '>=6.0.0'}
     dev: false
 
@@ -4315,7 +4310,7 @@ packages:
       convert-hrtime: 3.0.0
       cookie: 0.5.0
       credit-card-type: 9.1.0
-      debug: 4.3.6
+      debug: 4.3.7
       fast-safe-stringify: 2.1.1
       http-headers: 3.0.2
       is-array-buffer: 3.0.4
@@ -4500,8 +4495,8 @@ packages:
       '@strikeentco/set': 1.0.2
     dev: false
 
-  /picocolors@1.0.1:
-    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
+  /picocolors@1.1.0:
+    resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
     dev: false
 
   /picomatch@2.3.1:
@@ -5126,7 +5121,7 @@ packages:
   /screepsmod-history@1.6.0:
     resolution: {integrity: sha512-fO9KEgj1133kwsHT05Mj6cTsZ0OnDrmne/MRy1Yca7hxNqOYJOR2zJP8Nsu2tuRGwCmBJYJzttKWuy3Axqpwjg==}
     dependencies:
-      aws-sdk: 2.1687.0
+      aws-sdk: 2.1691.0
       bluebird: 3.7.2
       ini: 1.3.8
       lodash: 4.17.21
@@ -5149,9 +5144,9 @@ packages:
   /screepsmod-mail-aws-ses@1.1.0:
     resolution: {integrity: sha512-xwwDGfFz5YixhRjWPqs1A6stMojxlIQvm6BsLXGBBzlXGqdUZOIsIcrpTEFHVVxNsVxxbw7NpYVHZAvxJhsZzg==}
     dependencies:
-      aws-sdk: 2.1687.0
+      aws-sdk: 2.1691.0
       handlebars: 4.7.8
-      nodemailer: 6.9.14
+      nodemailer: 6.9.15
     dev: false
 
   /screepsmod-map-tool@1.10.0:
@@ -5270,7 +5265,7 @@ packages:
     dependencies:
       '@types/debug': 4.1.12
       '@types/validator': 13.12.1
-      debug: 4.3.6
+      debug: 4.3.7
       dottie: 2.0.6
       inflection: 1.13.4
       lodash: 4.17.21
@@ -5455,7 +5450,7 @@ packages:
     requiresBuild: true
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.6
+      debug: 4.3.7
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
