@@ -377,8 +377,8 @@ packages:
     dev: false
     optional: true
 
-  /agentkeepalive@4.5.0:
-    resolution: {integrity: sha512-5GG/5IbQQpC9FpkRGsSvZI5QYeSCzlJHdpBQntCsuTOxhKD8lqKhrleg2Yi7yvMIf82Ycmmqln9U8V9qwEiJew==}
+  /agentkeepalive@4.6.0:
+    resolution: {integrity: sha512-kja8j7PjmncONqaTsB8fQ+wE2mSU2DJ9D4XKoJ5PFWIdRMa6SLSN1ff4mOr4jCbfRSsxR4keIiySJU0N9T5hIQ==}
     engines: {node: '>= 8.0.0'}
     requiresBuild: true
     dependencies:
@@ -3420,7 +3420,7 @@ packages:
     engines: {node: '>= 10'}
     requiresBuild: true
     dependencies:
-      agentkeepalive: 4.5.0
+      agentkeepalive: 4.6.0
       cacache: 15.3.0(bluebird@3.7.2)
       http-cache-semantics: 4.1.1
       http-proxy-agent: 4.0.1
