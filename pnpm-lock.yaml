@@ -2643,8 +2643,8 @@ packages:
       next-line: 1.1.0
     dev: false
 
-  /http-parser-js@0.5.8:
-    resolution: {integrity: sha512-SGeBX54F94Wgu5RH3X5jsDtf4eHyRogWX1XGT3b4HuW3tQPM4AaBzoUji/4AAJNXCEOWZ5O0DgZmJw1947gD5Q==}
+  /http-parser-js@0.5.9:
+    resolution: {integrity: sha512-n1XsPy3rXVxlqxVioEWdC+0+M+SQw0DpJynwtOPo1X+ZlvdzTLtDBIJJlDQTnwZIFJrZSzSGmIOUdP8tu+SgLw==}
     dev: false
 
   /http-proxy-agent@4.0.1:
@@ -4603,7 +4603,7 @@ packages:
       pump: 3.0.2
       rc: 1.2.8
       simple-get: 4.0.1
-      tar-fs: 2.1.1
+      tar-fs: 2.1.2
       tunnel-agent: 0.6.0
     dev: false
 
@@ -5865,8 +5865,8 @@ packages:
     engines: {node: '>=0.6'}
     dev: false
 
-  /tar-fs@2.1.1:
-    resolution: {integrity: sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==}
+  /tar-fs@2.1.2:
+    resolution: {integrity: sha512-EsaAXwxmx8UB7FRKqeozqEPop69DXcmYwTQwXvyAPF352HJsPdkVhvTaDPYqfNgruveJIJy3TA2l+2zj8LJIJA==}
     dependencies:
       chownr: 1.1.4
       mkdirp-classic: 0.5.3
@@ -6379,7 +6379,7 @@ packages:
     resolution: {integrity: sha512-b17KeDIQVjvb0ssuSDF2cYXSg2iztliJ4B9WdsuB6J952qCPKmnVq4DyW5motImXHDC1cBT/1UezrJVsKw5zjg==}
     engines: {node: '>=0.8.0'}
     dependencies:
-      http-parser-js: 0.5.8
+      http-parser-js: 0.5.9
       safe-buffer: 5.2.1
       websocket-extensions: 0.1.4
     dev: false
