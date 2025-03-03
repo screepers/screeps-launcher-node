@@ -285,8 +285,8 @@ packages:
     resolution: {integrity: sha512-k4MGaQl5TGo/iipqb2UDG2UwjXziSWkh0uysQelTlJpX1qGlpUZYm8PnO4DxG1qBomtJUdYJ6qR6xdIah10JLg==}
     dev: true
 
-  /@types/lodash@4.17.15:
-    resolution: {integrity: sha512-w/P33JFeySuhN6JLkysYUK2gEmy9kHHFN7E8ro0tkfmlDOgxBDzWEZ/J8cWA+fHqFevpswDTFZnDx+R9lbL6xw==}
+  /@types/lodash@4.17.16:
+    resolution: {integrity: sha512-HX7Em5NYQAXKW+1T+FiuG27NGwzJfCX3s1GjOa7ujxZa52kjJLOr4FUxT+giF6Tgxv1e+/czV/iTtBw27WTU9g==}
     dev: false
 
   /@types/ms@2.1.0:
@@ -2312,7 +2312,7 @@ packages:
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
-      nan: 2.22.1
+      nan: 2.22.2
     dev: false
     optional: true
 
@@ -3760,8 +3760,8 @@ packages:
     resolution: {integrity: sha512-r65nCZhrbXXb6dXOACihYApHw2Q6pV0M3V0PSxd74N0+D8nzAdEAITq2oAjA1jVnKI+tGvEBUpqiMh0+rW6zDQ==}
     dev: false
 
-  /nan@2.22.1:
-    resolution: {integrity: sha512-pfRR4ZcNTSm2ZFHaztuvbICf+hyiG6ecA06SfAxoPmuHjvMu0KUIae7Y8GyVkbBqeEIidsmXeYooWIX9+qjfRQ==}
+  /nan@2.22.2:
+    resolution: {integrity: sha512-DANghxFkS1plDdRsX0X9pm0Z6SJNN6gBdtXfanwoZ8hooC5gosGFSBGRYHUVPz1asKA/kMRqDRdHrluZ61SpBQ==}
     dev: false
 
   /nanoclone@0.2.1:
@@ -5032,8 +5032,8 @@ packages:
     dev: false
     optional: true
 
-  /retry-as-promised@7.0.4:
-    resolution: {integrity: sha512-XgmCoxKWkDofwH8WddD0w85ZfqYz+ZHlr5yo+3YUCfycWawU56T5ckWXsScsj5B8tqUcIG67DxXByo3VUgiAdA==}
+  /retry-as-promised@7.1.1:
+    resolution: {integrity: sha512-hMD7odLOt3LkTjcif8aRZqi/hybjpLNgSk5oF5FCowfCjok6LukpN2bDX7R5wDmbgBQFn7YoBxSagmtXHaJYJw==}
     dev: false
 
   /retry@0.12.0:
@@ -5345,7 +5345,7 @@ packages:
       moment: 2.30.1
       moment-timezone: 0.5.47
       pg-connection-string: 2.7.0
-      retry-as-promised: 7.0.4
+      retry-as-promised: 7.1.1
       semver: 7.7.1
       sequelize-pool: 7.1.0
       sqlite3: 5.1.7(bluebird@3.7.2)
@@ -6556,7 +6556,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       '@babel/runtime': 7.26.9
-      '@types/lodash': 4.17.15
+      '@types/lodash': 4.17.16
       lodash: 4.17.21
       lodash-es: 4.17.21
       nanoclone: 0.2.1
@@ -6573,7 +6573,7 @@ packages:
       generic-pool: 3.9.0
       isolated-vm: 4.7.2
       lodash: 3.10.1
-      nan: 2.22.1
+      nan: 2.22.2
       q: 1.5.1
       webpack: 3.12.0
       webpack-shell-plugin: 0.5.0
