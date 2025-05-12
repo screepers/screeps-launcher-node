@@ -2610,8 +2610,8 @@ packages:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
     dev: false
 
-  /http-cache-semantics@4.1.1:
-    resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
+  /http-cache-semantics@4.2.0:
+    resolution: {integrity: sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==}
     requiresBuild: true
     dev: false
     optional: true
@@ -3419,7 +3419,7 @@ packages:
     dependencies:
       agentkeepalive: 4.6.0
       cacache: 15.3.0(bluebird@3.7.2)
-      http-cache-semantics: 4.1.1
+      http-cache-semantics: 4.2.0
       http-proxy-agent: 4.0.1
       https-proxy-agent: 5.0.1
       is-lambda: 1.0.1
