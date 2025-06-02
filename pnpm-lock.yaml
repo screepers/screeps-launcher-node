@@ -61,7 +61,7 @@ dependencies:
     version: 1.2.0
   screepsmod-mongo:
     specifier: ^2.11.1
-    version: 2.12.0
+    version: 2.12.1
   screepsmod-pure-automation:
     specifier: ^1.0.3
     version: 1.0.3
@@ -5211,8 +5211,8 @@ packages:
       yamljs: 0.3.0
     dev: false
 
-  /screepsmod-mongo@2.12.0:
-    resolution: {integrity: sha512-4PbC1Wn7fj/gmeRSNtJWxttJdMrgW2Gdz9lBGQy83UELR74IWqOtWaefnKoVPX8zYdhXOTuOF2f4KmCyOPsybQ==}
+  /screepsmod-mongo@2.12.1:
+    resolution: {integrity: sha512-9x039BLgWMVrzop4nyvXwrGMFdm2OYpk2TdyEeExsW2ftydsID5s0ZbtsXpPE/ginmoTd+G0ETOJw92EnW2J6Q==}
     dependencies:
       body-parser: 1.20.3
       express: 4.21.2
