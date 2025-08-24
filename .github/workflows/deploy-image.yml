@@ -43,7 +43,7 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
       - name: Build and push Docker image
-        uses: docker/build-push-action@b3eddbb94c4146a0988a620b01720afe50639271
+        uses: docker/build-push-action@ccc2b40e9ea6518f9252a22a990f8e868370f62e
         with:
           context: .
           push: true
