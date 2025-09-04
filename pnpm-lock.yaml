@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@ladjs/graceful':
-    specifier: ^3.2.2
-    version: 3.2.2
+    specifier: ^5.0.0
+    version: 5.0.0
   '@screeps/backend':
     specifier: ^3.2.3
     version: 3.2.6
@@ -140,10 +140,9 @@ packages:
     resolution: {integrity: sha512-hZere0rUga8kTzSTFbHREXpD9E/jwi94+B5RyLAmMIzl/w/EK1z7rFEnMHzPkU4AZkL42JWSsGXoV8LXMihybg==}
     dev: false
 
-  /@ladjs/graceful@3.2.2:
-    resolution: {integrity: sha512-GyL5Cpgh2RlndFW2e4AUHrEDe0tzyXKpAs92wrAQhNKcY0y++qfK8PC+6TOHzN9zvxPY9j1KAU29Gfa9vxWzDg==}
+  /@ladjs/graceful@5.0.0:
+    resolution: {integrity: sha512-xTyMjAK8XB+EGgGCB0XiD+5w9F/cIgJMsAFs7p9UJMSsHkUfx2LUfy3/kXWUahjaTetB325rRH5DW49p59IiTg==}
     engines: {node: '>=14'}
-    deprecated: Please upgrade to @ladjs/graceful@4.0.1+ as we have fixed a bug where custom handlers and servers may require redis/mongo connection for functionality, and if disconnected could throw an uncaught exception; https://github.com/ladjs/graceful/releases/tag/v4.0.1 (maintained by @forwardemail @ https://forwardemail.net)
     dependencies:
       lil-http-terminator: 1.2.3
       p-is-promise: 3.0.0
