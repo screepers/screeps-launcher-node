@@ -2301,7 +2301,7 @@ packages:
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
-      nan: 2.23.0
+      nan: 2.23.1
     dev: false
     optional: true
 
@@ -2813,8 +2813,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /ip-address@10.0.1:
-    resolution: {integrity: sha512-NWv9YLW4PoW2B7xtzaS3NCot75m6nK7Icdv0o3lfMceJVRfSoQwqD4wEH5rLwoKJwUiZ/rfpiVBhnaF0FK4HoA==}
+  /ip-address@10.1.0:
+    resolution: {integrity: sha512-XXADHxXmvT9+CRxhXg56LJovE+bmWnEWB78LB83VZTprKTmaC5QfruXocxzTZ2Kl0DNwKuBdlIhjL8LeY8Sf8Q==}
     engines: {node: '>= 12'}
     requiresBuild: true
     dev: false
@@ -2879,6 +2879,7 @@ packages:
 
   /is-buffer@1.1.6:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
+    requiresBuild: true
     dev: false
 
   /is-buffer@2.0.5:
@@ -3755,8 +3756,8 @@ packages:
     resolution: {integrity: sha512-r65nCZhrbXXb6dXOACihYApHw2Q6pV0M3V0PSxd74N0+D8nzAdEAITq2oAjA1jVnKI+tGvEBUpqiMh0+rW6zDQ==}
     dev: false
 
-  /nan@2.23.0:
-    resolution: {integrity: sha512-1UxuyYGdoQHcGg87Lkqm3FzefucTa0NAiOcuRsDmysep3c1LVCRK2krrUDafMWtjSG04htvAmvg96+SDknOmgQ==}
+  /nan@2.23.1:
+    resolution: {integrity: sha512-r7bBUGKzlqk8oPBDYxt6Z0aEdF1G1rwlMcLk8LCOMbOzf0mG+JUfUzG4fIMWwHWP0iyaLWEQZJmtB7nOHEm/qw==}
     dev: false
 
   /nanomatch@1.2.13(supports-color@4.5.0):
@@ -5339,7 +5340,7 @@ packages:
       sqlite3: 5.1.7(bluebird@3.7.2)
       toposort-class: 1.0.1
       uuid: 8.3.2
-      validator: 13.15.20
+      validator: 13.15.22
       wkx: 0.5.0
     transitivePeerDependencies:
       - supports-color
@@ -5555,7 +5556,7 @@ packages:
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
     requiresBuild: true
     dependencies:
-      ip-address: 10.0.1
+      ip-address: 10.1.0
       smart-buffer: 4.2.0
     dev: false
     optional: true
@@ -6290,8 +6291,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: false
 
-  /validator@13.15.20:
-    resolution: {integrity: sha512-KxPOq3V2LmfQPP4eqf3Mq/zrT0Dqp2Vmx2Bn285LwVahLc+CsxOM0crBHczm8ijlcjZ0Q5Xd6LW3z3odTPnlrw==}
+  /validator@13.15.22:
+    resolution: {integrity: sha512-uT/YQjiyLJP7HSrv/dPZqK9L28xf8hsNca01HSz1dfmI0DgMfjopp1rO/z13NeGF1tVystF0Ejx3y4rUKPw+bQ==}
     engines: {node: '>= 0.10'}
     dev: false
 
@@ -6581,7 +6582,7 @@ packages:
       generic-pool: 3.9.0
       isolated-vm: 4.7.2
       lodash: 3.10.1
-      nan: 2.23.0
+      nan: 2.23.1
       q: 1.5.1
       webpack: 3.12.0
       webpack-shell-plugin: 0.5.0
