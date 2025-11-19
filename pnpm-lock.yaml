@@ -72,7 +72,7 @@ devDependencies:
     version: 16.1.8
   '@tsconfig/node18':
     specifier: ^18.2.2
-    version: 18.2.5
+    version: 18.2.6
   '@types/js-yaml':
     specifier: ^4.0.9
     version: 4.0.9
@@ -264,8 +264,8 @@ packages:
     resolution: {integrity: sha512-T/CfdwFry660WjZor56z0F3pxeCllt8KOxWcHFW6ZEuULKUObTDEMdgtctyuJPxwqyWDsvHRfxHaJ4FIICyoqQ==}
     dev: true
 
-  /@tsconfig/node18@18.2.5:
-    resolution: {integrity: sha512-nQicUR0hKCXwCTVByBMPKm+lWH4B+IquC9Y1KEe4oujGVFFKGTIpAFz5z/AwJooSocVAuTSWTe/7ey1nU+xrlA==}
+  /@tsconfig/node18@18.2.6:
+    resolution: {integrity: sha512-eAWQzAjPj18tKnDzmWstz4OyWewLUNBm9tdoN9LayzoboRktYx3Enk1ZXPmThj55L7c4VWYq/Bzq0A51znZfhw==}
     dev: true
 
   /@types/debug@4.1.12:
