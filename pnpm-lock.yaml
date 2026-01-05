@@ -28,7 +28,7 @@ dependencies:
     version: 5.1.2
   bree:
     specifier: ^9.1.3
-    version: 9.2.6
+    version: 9.2.7
   cabin:
     specifier: ^13.2.5
     version: 13.2.8(axe@13.0.0)
@@ -816,8 +816,8 @@ packages:
     dev: false
     optional: true
 
-  /bree@9.2.6:
-    resolution: {integrity: sha512-hJcEr+Jny1Oy24NQtynJu0gZ63orR9zOyAPatZUTYiZ/FmbcZmy7IZStPR4VejDCeeegu31xAXK4xiE4dai5jw==}
+  /bree@9.2.7:
+    resolution: {integrity: sha512-17qZng7m7mT7X8hf8hKSOtj/vMsk9+J+u3XtSr3jU2PkY/4N1Xy8OAd7P6j65zOcYM+4Q8pOG42UEnZlMlO0kQ==}
     engines: {node: '>=12.17.0 <13.0.0-0||>=13.2.0'}
     dependencies:
       '@breejs/later': 4.2.0
