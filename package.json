@@ -17,7 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "@tsconfig/node16": "^16.1.1",
-    "@tsconfig/node18": "^18.2.2",
+    "@tsconfig/node20": "^20.1.0",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^20.9.2",
     "ts-node": "^10.9.1",
