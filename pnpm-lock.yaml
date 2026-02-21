@@ -30,8 +30,8 @@ dependencies:
     specifier: ^9.1.3
     version: 9.2.9
   cabin:
-    specifier: ^13.2.5
-    version: 13.2.8(axe@13.0.0)
+    specifier: ^14.0.0
+    version: 14.0.0(axe@13.0.0)
   js-yaml:
     specifier: ^4.1.0
     version: 4.1.1
@@ -945,9 +945,9 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /cabin@13.2.8(axe@13.0.0):
-    resolution: {integrity: sha512-gE1Hmu0ETDuZargHY0Iv6ipbKmDvW9VX5oaOalDsjOCjlYAh6mYmgEoncKHkJ4D+2hddh1Q8UPv0f3sLZjhIPQ==}
-    engines: {node: '>=14'}
+  /cabin@14.0.0(axe@13.0.0):
+    resolution: {integrity: sha512-41hEOpDK0j13Kd+0P1fYwRdKrMiZ7Q0sTCTHnQn343RFXYX0fqLfewifexePuODRvgpHbcEoH4SEHhC6b8Cwjw==}
+    engines: {node: '>=18'}
     peerDependencies:
       axe: '>= 10.0.0'
     dependencies:
