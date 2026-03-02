@@ -19,7 +19,7 @@ dependencies:
     version: file:screeps-driver-5.2.5.tgz
   '@screeps/engine':
     specifier: ^4.2.17
-    version: 4.2.22
+    version: 4.2.24
   '@screeps/pathfinding':
     specifier: ^0.4.17
     version: 0.4.17
@@ -201,8 +201,8 @@ packages:
       - supports-color
     dev: false
 
-  /@screeps/engine@4.2.22:
-    resolution: {integrity: sha512-8wGyDOGKW3EshSbrSkFr7TLN2sIieEVP0iLFqsTKDYBPo24cpRPgi6cCgn/zSqBKYz5fN6HUoJB6mq5AhnK0mw==}
+  /@screeps/engine@4.2.24:
+    resolution: {integrity: sha512-fTklJD6y2BKYuF7qXrL59q6rEr3xiiTjSE7VMRFe18evXBE6Z5eAyFtgjyqyfJxAUR/AbgARwr9xM09nuOt4QA==}
     hasBin: true
     dependencies:
       '@screeps/pathfinding': 0.4.17
