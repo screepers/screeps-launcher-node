@@ -25,7 +25,7 @@ dependencies:
     version: 0.4.17
   '@screeps/storage':
     specifier: ^5.1.1
-    version: 5.1.2
+    version: 5.1.3
   bree:
     specifier: ^9.1.3
     version: 9.2.9
@@ -218,8 +218,8 @@ packages:
       heap: 0.2.5
     dev: false
 
-  /@screeps/storage@5.1.2:
-    resolution: {integrity: sha512-eTo4UZXzuW8kUINJyJYtA8X8JSC8lxEiCuFsZV//JoD3urkmJciJndYWSdVWkiugY+9HdiYkKxPstLPmpvtAKg==}
+  /@screeps/storage@5.1.3:
+    resolution: {integrity: sha512-gXyVfPvzo03uUfjAygwXUs3UJSvVyFqiRN1u94l2qt4YMcfQHTuRZo891Xly5WFBPUaR4Ns79mhVQj2vy03s9g==}
     hasBin: true
     dependencies:
       lodash: 3.10.1
@@ -581,7 +581,7 @@ packages:
   /async@2.6.4:
     resolution: {integrity: sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==}
     dependencies:
-      lodash: 4.17.23
+      lodash: 4.18.1
     dev: false
 
   /asynckit@0.4.0:
@@ -2868,6 +2868,7 @@ packages:
 
   /is-buffer@1.1.6:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
+    requiresBuild: true
     dev: false
 
   /is-buffer@2.0.5:
@@ -3354,6 +3355,10 @@ packages:
 
   /lodash@4.17.23:
     resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
+    dev: false
+
+  /lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
     dev: false
 
   /lokijs@1.5.12:
@@ -4275,7 +4280,7 @@ packages:
     dependencies:
       ip: 2.0.1
       last-commit-log: 3.4.0
-      lodash: 4.17.23
+      lodash: 4.18.1
       read-pkg-up: 7.0.1
       semver: 7.7.4
     dev: false
