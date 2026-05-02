@@ -61,7 +61,7 @@ dependencies:
     version: 1.2.0
   screepsmod-mongo:
     specifier: ^2.11.1
-    version: 2.12.1
+    version: 2.13.0
   screepsmod-pure-automation:
     specifier: ^1.0.3
     version: 1.0.3
@@ -721,6 +721,26 @@ packages:
       iconv-lite: 0.4.24
       on-finished: 2.4.1
       qs: 6.14.2
+      raw-body: 2.5.3
+      type-is: 1.6.18
+      unpipe: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /body-parser@1.20.5:
+    resolution: {integrity: sha512-3grm+/2tUOvu2cjJkvsIxrv/wVpfXQW4PsQHYm7yk4vfpu7Ekl6nEsYBoJUL6qDwZUx8wUhQ8tR2qz+ad9c9OA==}
+    engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
+    dependencies:
+      bytes: 3.1.2
+      content-type: 1.0.5
+      debug: 2.6.9(supports-color@4.5.0)
+      depd: 2.0.0
+      destroy: 1.2.0
+      http-errors: 2.0.1
+      iconv-lite: 0.4.24
+      on-finished: 2.4.1
+      qs: 6.15.1
       raw-body: 2.5.3
       type-is: 1.6.18
       unpipe: 1.0.0
@@ -4838,13 +4858,13 @@ packages:
       yamljs: 0.3.0
     dev: false
 
-  /screepsmod-mongo@2.12.1:
-    resolution: {integrity: sha512-9x039BLgWMVrzop4nyvXwrGMFdm2OYpk2TdyEeExsW2ftydsID5s0ZbtsXpPE/ginmoTd+G0ETOJw92EnW2J6Q==}
+  /screepsmod-mongo@2.13.0:
+    resolution: {integrity: sha512-8AhfQBZZ6Fkf/2TMW9Qp8+9pfUc/hbSpmKq/riDiMBlUvlsk7W0Js7Uxn3OCMdQvxNvY+bH8zSYnOj6G6Hm1ew==}
     dependencies:
-      body-parser: 1.20.4
+      body-parser: 1.20.5
       express: 4.22.1
       ini: 1.3.8
-      lodash: 4.17.23
+      lodash: 4.18.1
       mongodb: 3.7.4
       q: 1.5.1
       q-json-response: 0.1.3
