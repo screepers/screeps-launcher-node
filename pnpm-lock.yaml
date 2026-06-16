@@ -43,7 +43,7 @@ dependencies:
     version: 1.36.1(@screeps/backend@3.3.0)
   screepsmod-auth:
     specifier: ^2.8.1
-    version: 2.8.3(@screeps/backend@3.3.0)
+    version: 2.9.0(@screeps/backend@3.3.0)
   screepsmod-dynamicmarket:
     specifier: ^1.1.14
     version: 1.1.14
@@ -4759,8 +4759,8 @@ packages:
       - supports-color
     dev: false
 
-  /screepsmod-auth@2.8.3(@screeps/backend@3.3.0):
-    resolution: {integrity: sha512-LVHYQtMShyQH187wBDNNdJyjdBnimsuBQnw8fBC81YnkknouLf6LEJ8Unzk5WoG6Jq+Ymof/ywgb74+4zvz1vQ==}
+  /screepsmod-auth@2.9.0(@screeps/backend@3.3.0):
+    resolution: {integrity: sha512-o8FVAXjHDP0ofYEb/f7+784JD4/F6skM9TtwUHHvh0VfKnII4tbyx/NMwRoa4Yo/TYPhFYFlVoo6n5POwApxgg==}
     peerDependencies:
       '@screeps/backend': '>=3.2.0'
     dependencies:
