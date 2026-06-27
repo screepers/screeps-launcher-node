@@ -34,7 +34,7 @@ dependencies:
     version: 13.2.8(axe@13.0.0)
   js-yaml:
     specifier: ^4.1.0
-    version: 4.2.0
+    version: 4.3.0
   screepsbot-zeswarm:
     specifier: ^1.0.3
     version: 1.0.3
@@ -2876,8 +2876,8 @@ packages:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: false
 
-  /js-yaml@4.2.0:
-    resolution: {integrity: sha512-ePWsvanv0DWuDRsW8dnt+R4jQ31SCRCQ7hhNcPXZPsoBZiemuZNYGf7adZdqX2D86j6rvKp3RpCxVTSb8WQlOw==}
+  /js-yaml@4.3.0:
+    resolution: {integrity: sha512-1td788aAnnZ5qs7V2QIRl1owjtYpbKt749Y3xauqQgwIIGF/xXWz1wMTEBx5O3LK3lXLVuqXPdPxj2BoFHaW9Q==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
