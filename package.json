@@ -24,7 +24,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@ladjs/graceful": "^3.2.2",
+    "@ladjs/graceful": "^5.0.0",
     "@screeps/backend": "^3.2.3",
     "@screeps/common": "^2.15.4",
     "@screeps/driver": "file:screeps-driver-5.2.5.tgz",
