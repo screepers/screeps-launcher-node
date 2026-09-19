@@ -69,7 +69,7 @@ dependencies:
 devDependencies:
   '@tsconfig/node16':
     specifier: ^16.1.1
-    version: 16.1.8
+    version: 16.1.9
   '@tsconfig/node18':
     specifier: ^18.2.2
     version: 18.2.6
@@ -257,8 +257,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@tsconfig/node16@16.1.8:
-    resolution: {integrity: sha512-T/CfdwFry660WjZor56z0F3pxeCllt8KOxWcHFW6ZEuULKUObTDEMdgtctyuJPxwqyWDsvHRfxHaJ4FIICyoqQ==}
+  /@tsconfig/node16@16.1.9:
+    resolution: {integrity: sha512-vzI9adb8N9w0/LS15qTfOAdi+QndGxjhOr7mXOrZ/aqCnkVvjc7O5k9uSyhf+Yb+5E3+17valm7CNscs5QNkmg==}
     dev: true
 
   /@tsconfig/node18@18.2.6:
@@ -2850,8 +2850,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /isobject@4.0.0:
-    resolution: {integrity: sha512-S/2fF5wH8SJA/kmwr6HYhK/RI/OkhD84k8ntalo0iJjZikgq1XFvR5M8NPT1x5F7fBwCG3qHfnzeP/Vh/ZxCUA==}
+  /isobject@4.1.1:
+    resolution: {integrity: sha512-aj/GPrPFTYOyroAKFtoBFazJKhem31BhIAE7LCIXJKTI9zujiwK5LWmXKU+YmOZBRsYOdmp20KSicsqpFt5FIA==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -5724,7 +5724,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       has-value: 2.0.2
-      isobject: 4.0.0
+      isobject: 4.1.1
     dev: false
 
   /upath@1.2.0:
