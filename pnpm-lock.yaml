@@ -31,7 +31,7 @@ dependencies:
     version: 9.2.9
   cabin:
     specifier: ^13.2.5
-    version: 13.2.8(axe@13.0.0)
+    version: 13.2.8(axe@14.0.0)
   js-yaml:
     specifier: ^4.1.0
     version: 4.3.1
@@ -69,7 +69,7 @@ dependencies:
 devDependencies:
   '@tsconfig/node16':
     specifier: ^16.1.1
-    version: 16.1.8
+    version: 16.1.9
   '@tsconfig/node18':
     specifier: ^18.2.2
     version: 18.2.6
@@ -257,8 +257,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@tsconfig/node16@16.1.8:
-    resolution: {integrity: sha512-T/CfdwFry660WjZor56z0F3pxeCllt8KOxWcHFW6ZEuULKUObTDEMdgtctyuJPxwqyWDsvHRfxHaJ4FIICyoqQ==}
+  /@tsconfig/node16@16.1.9:
+    resolution: {integrity: sha512-vzI9adb8N9w0/LS15qTfOAdi+QndGxjhOr7mXOrZ/aqCnkVvjc7O5k9uSyhf+Yb+5E3+17valm7CNscs5QNkmg==}
     dev: true
 
   /@tsconfig/node18@18.2.6:
@@ -590,9 +590,9 @@ packages:
     resolution: {integrity: sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==}
     dev: false
 
-  /axe@13.0.0:
-    resolution: {integrity: sha512-dEsvPKELN995BxA3NXOUzwjBFR1HP1fhBYwO505mHUn1ADUZ1ccmegeu7djXdNYJ6q0jL8eKceADLD+uSuXpRQ==}
-    engines: {node: '>=14'}
+  /axe@14.0.0:
+    resolution: {integrity: sha512-jbQZshwhnA6ek4tEbG9KpZhRDDfmTJXYmKdyCi0PPPbGlNMs0czrFVd64QmiLHk4uHtsDBK606u7I9NTTx2Wqg==}
+    engines: {node: '>=18.18'}
     dependencies:
       '@ladjs/format-util': 1.0.4
       '@strikeentco/get': 1.0.1
@@ -604,7 +604,6 @@ packages:
       is-symbol: 1.1.1
       iserror: 0.0.2
       merge-options: 3.0.4
-      p-map-series: 2.1.0
       parse-app-info: 6.0.0
       parse-err: 1.0.0
       pick-deep: 1.0.0
@@ -915,7 +914,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /cabin@13.2.8(axe@13.0.0):
+  /cabin@13.2.8(axe@14.0.0):
     resolution: {integrity: sha512-gE1Hmu0ETDuZargHY0Iv6ipbKmDvW9VX5oaOalDsjOCjlYAh6mYmgEoncKHkJ4D+2hddh1Q8UPv0f3sLZjhIPQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -923,7 +922,7 @@ packages:
     dependencies:
       '@ladjs/format-util': 1.0.4
       ansi-colors: 4.1.3
-      axe: 13.0.0
+      axe: 14.0.0
       clf-date: 0.2.1
       format-specifiers: 1.0.0
       iserror: 0.0.2
@@ -2850,8 +2849,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /isobject@4.0.0:
-    resolution: {integrity: sha512-S/2fF5wH8SJA/kmwr6HYhK/RI/OkhD84k8ntalo0iJjZikgq1XFvR5M8NPT1x5F7fBwCG3qHfnzeP/Vh/ZxCUA==}
+  /isobject@4.1.1:
+    resolution: {integrity: sha512-aj/GPrPFTYOyroAKFtoBFazJKhem31BhIAE7LCIXJKTI9zujiwK5LWmXKU+YmOZBRsYOdmp20KSicsqpFt5FIA==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -3911,11 +3910,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       p-limit: 2.3.0
-    dev: false
-
-  /p-map-series@2.1.0:
-    resolution: {integrity: sha512-RpYIIK1zXSNEOdwxcfe7FdvGcs7+y5n8rifMhMNWvaxRNMPINJHF5GDeuVxWqnfrcHPSCnp7Oo5yNXHId9Av2Q==}
-    engines: {node: '>=8'}
     dev: false
 
   /p-map@4.0.0:
@@ -5724,7 +5718,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       has-value: 2.0.2
-      isobject: 4.0.0
+      isobject: 4.1.1
     dev: false
 
   /upath@1.2.0:
